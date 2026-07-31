@@ -1,0 +1,1213 @@
+:root {
+    --red-light-9: color-mix(in srgb, var(--red-normal) 10%, white);
+    --red-light-8: color-mix(in srgb, var(--red-normal) 20%, white);
+    --red-light-7: color-mix(in srgb, var(--red-normal) 30%, white);
+    --red-light-6: color-mix(in srgb, var(--red-normal) 40%, white);
+    --red-light-5: color-mix(in srgb, var(--red-normal) 50%, white);
+    --red-light-4: color-mix(in srgb, var(--red-normal) 60%, white);
+    --red-light-3: color-mix(in srgb, var(--red-normal) 70%, white);
+    --red-light-2: color-mix(in srgb, var(--red-normal) 80%, white);
+    --red-light-1: color-mix(in srgb, var(--red-normal) 90%, white);
+    --red-normal: #f03e3e;
+    --red-dark-1: color-mix(in srgb, var(--red-normal) 90%, black);
+    --red-dark-2: color-mix(in srgb, var(--red-normal) 80%, black);
+    --red-dark-3: color-mix(in srgb, var(--red-normal) 70%, black);
+    --red-dark-4: color-mix(in srgb, var(--red-normal) 60%, black);
+    --red-dark-5: color-mix(in srgb, var(--red-normal) 50%, black);
+    --red-dark-6: color-mix(in srgb, var(--red-normal) 40%, black);
+    --red-dark-7: color-mix(in srgb, var(--red-normal) 30%, black);
+    --red-dark-8: color-mix(in srgb, var(--red-normal) 20%, black);
+    --red-dark-9: color-mix(in srgb, var(--red-normal) 10%, black);
+    --red-11: #f03e3e11;
+    --red-22: #f03e3e22;
+    --red-33: #f03e3e33;
+    --red-44: #f03e3e44;
+    --red-55: #f03e3e55;
+    --red-66: #f03e3e66;
+    --red-77: #f03e3e77;
+    --red-88: #f03e3e88;
+    --red-99: #f03e3e99;
+    --red-aa: #f03e3eaa;
+    --red-bb: #f03e3ebb;
+    --red-cc: #f03e3ecc;
+    --red-dd: #f03e3edd;
+    --red-ee: #f03e3eee;
+
+    --pink-light-9: color-mix(in srgb, var(--pink-normal) 10%, white);
+    --pink-light-8: color-mix(in srgb, var(--pink-normal) 20%, white);
+    --pink-light-7: color-mix(in srgb, var(--pink-normal) 30%, white);
+    --pink-light-6: color-mix(in srgb, var(--pink-normal) 40%, white);
+    --pink-light-5: color-mix(in srgb, var(--pink-normal) 50%, white);
+    --pink-light-4: color-mix(in srgb, var(--pink-normal) 60%, white);
+    --pink-light-3: color-mix(in srgb, var(--pink-normal) 70%, white);
+    --pink-light-2: color-mix(in srgb, var(--pink-normal) 80%, white);
+    --pink-light-1: color-mix(in srgb, var(--pink-normal) 90%, white);
+    --pink-normal: #d6336c;
+    --pink-dark-1: color-mix(in srgb, var(--pink-normal) 90%, black);
+    --pink-dark-2: color-mix(in srgb, var(--pink-normal) 80%, black);
+    --pink-dark-3: color-mix(in srgb, var(--pink-normal) 70%, black);
+    --pink-dark-4: color-mix(in srgb, var(--pink-normal) 60%, black);
+    --pink-dark-5: color-mix(in srgb, var(--pink-normal) 50%, black);
+    --pink-dark-6: color-mix(in srgb, var(--pink-normal) 40%, black);
+    --pink-dark-7: color-mix(in srgb, var(--pink-normal) 30%, black);
+    --pink-dark-8: color-mix(in srgb, var(--pink-normal) 20%, black);
+    --pink-dark-9: color-mix(in srgb, var(--pink-normal) 10%, black);
+    --pink-11: #d6336c11;
+    --pink-22: #d6336c22;
+    --pink-33: #d6336c33;
+    --pink-44: #d6336c44;
+    --pink-55: #d6336c55;
+    --pink-66: #d6336c66;
+    --pink-77: #d6336c77;
+    --pink-88: #d6336c88;
+    --pink-99: #d6336c99;
+    --pink-aa: #d6336caa;
+    --pink-bb: #d6336cbb;
+    --pink-cc: #d6336ccc;
+    --pink-dd: #d6336cdd;
+    --pink-ee: #d6336cee;
+
+    --magenta-light-9: color-mix(in srgb, var(--magenta-normal) 10%, white);
+    --magenta-light-8: color-mix(in srgb, var(--magenta-normal) 20%, white);
+    --magenta-light-7: color-mix(in srgb, var(--magenta-normal) 30%, white);
+    --magenta-light-6: color-mix(in srgb, var(--magenta-normal) 40%, white);
+    --magenta-light-5: color-mix(in srgb, var(--magenta-normal) 50%, white);
+    --magenta-light-4: color-mix(in srgb, var(--magenta-normal) 60%, white);
+    --magenta-light-3: color-mix(in srgb, var(--magenta-normal) 70%, white);
+    --magenta-light-2: color-mix(in srgb, var(--magenta-normal) 80%, white);
+    --magenta-light-1: color-mix(in srgb, var(--magenta-normal) 90%, white);
+    --magenta-normal: #ae3ec9;
+    --magenta-dark-1: color-mix(in srgb, var(--magenta-normal) 90%, black);
+    --magenta-dark-2: color-mix(in srgb, var(--magenta-normal) 80%, black);
+    --magenta-dark-3: color-mix(in srgb, var(--magenta-normal) 70%, black);
+    --magenta-dark-4: color-mix(in srgb, var(--magenta-normal) 60%, black);
+    --magenta-dark-5: color-mix(in srgb, var(--magenta-normal) 50%, black);
+    --magenta-dark-6: color-mix(in srgb, var(--magenta-normal) 40%, black);
+    --magenta-dark-7: color-mix(in srgb, var(--magenta-normal) 30%, black);
+    --magenta-dark-8: color-mix(in srgb, var(--magenta-normal) 20%, black);
+    --magenta-dark-9: color-mix(in srgb, var(--magenta-normal) 10%, black);
+    --magenta-11: #ae3ec911;
+    --magenta-22: #ae3ec922;
+    --magenta-33: #ae3ec933;
+    --magenta-44: #ae3ec944;
+    --magenta-55: #ae3ec955;
+    --magenta-66: #ae3ec966;
+    --magenta-77: #ae3ec977;
+    --magenta-88: #ae3ec988;
+    --magenta-99: #ae3ec999;
+    --magenta-aa: #ae3ec9aa;
+    --magenta-bb: #ae3ec9bb;
+    --magenta-cc: #ae3ec9cc;
+    --magenta-dd: #ae3ec9dd;
+    --magenta-ee: #ae3ec9ee;
+
+    --purple-light-9: color-mix(in srgb, var(--purple-normal) 10%, white);
+    --purple-light-8: color-mix(in srgb, var(--purple-normal) 20%, white);
+    --purple-light-7: color-mix(in srgb, var(--purple-normal) 30%, white);
+    --purple-light-6: color-mix(in srgb, var(--purple-normal) 40%, white);
+    --purple-light-5: color-mix(in srgb, var(--purple-normal) 50%, white);
+    --purple-light-4: color-mix(in srgb, var(--purple-normal) 60%, white);
+    --purple-light-3: color-mix(in srgb, var(--purple-normal) 70%, white);
+    --purple-light-2: color-mix(in srgb, var(--purple-normal) 80%, white);
+    --purple-light-1: color-mix(in srgb, var(--purple-normal) 90%, white);
+    --purple-normal: #7048e8;
+    --purple-dark-1: color-mix(in srgb, var(--purple-normal) 90%, black);
+    --purple-dark-2: color-mix(in srgb, var(--purple-normal) 80%, black);
+    --purple-dark-3: color-mix(in srgb, var(--purple-normal) 70%, black);
+    --purple-dark-4: color-mix(in srgb, var(--purple-normal) 60%, black);
+    --purple-dark-5: color-mix(in srgb, var(--purple-normal) 50%, black);
+    --purple-dark-6: color-mix(in srgb, var(--purple-normal) 40%, black);
+    --purple-dark-7: color-mix(in srgb, var(--purple-normal) 30%, black);
+    --purple-dark-8: color-mix(in srgb, var(--purple-normal) 20%, black);
+    --purple-dark-9: color-mix(in srgb, var(--purple-normal) 10%, black);
+    --purple-11: #7048e811;
+    --purple-22: #7048e822;
+    --purple-33: #7048e833;
+    --purple-44: #7048e844;
+    --purple-55: #7048e855;
+    --purple-66: #7048e866;
+    --purple-77: #7048e877;
+    --purple-88: #7048e888;
+    --purple-99: #7048e899;
+    --purple-aa: #7048e8aa;
+    --purple-bb: #7048e8bb;
+    --purple-cc: #7048e8cc;
+    --purple-dd: #7048e8dd;
+    --purple-ee: #7048e8ee;
+
+    --blue-light-9: color-mix(in srgb, var(--blue-normal) 10%, white);
+    --blue-light-8: color-mix(in srgb, var(--blue-normal) 20%, white);
+    --blue-light-7: color-mix(in srgb, var(--blue-normal) 30%, white);
+    --blue-light-6: color-mix(in srgb, var(--blue-normal) 40%, white);
+    --blue-light-5: color-mix(in srgb, var(--blue-normal) 50%, white);
+    --blue-light-4: color-mix(in srgb, var(--blue-normal) 60%, white);
+    --blue-light-3: color-mix(in srgb, var(--blue-normal) 70%, white);
+    --blue-light-2: color-mix(in srgb, var(--blue-normal) 80%, white);
+    --blue-light-1: color-mix(in srgb, var(--blue-normal) 90%, white);
+    --blue-normal: #1c7ed6;
+    --blue-dark-1: color-mix(in srgb, var(--blue-normal) 90%, black);
+    --blue-dark-2: color-mix(in srgb, var(--blue-normal) 80%, black);
+    --blue-dark-3: color-mix(in srgb, var(--blue-normal) 70%, black);
+    --blue-dark-4: color-mix(in srgb, var(--blue-normal) 60%, black);
+    --blue-dark-5: color-mix(in srgb, var(--blue-normal) 50%, black);
+    --blue-dark-6: color-mix(in srgb, var(--blue-normal) 40%, black);
+    --blue-dark-7: color-mix(in srgb, var(--blue-normal) 30%, black);
+    --blue-dark-8: color-mix(in srgb, var(--blue-normal) 20%, black);
+    --blue-dark-9: color-mix(in srgb, var(--blue-normal) 10%, black);
+    --blue-11: #1c7ed611;
+    --blue-22: #1c7ed622;
+    --blue-33: #1c7ed633;
+    --blue-44: #1c7ed644;
+    --blue-55: #1c7ed655;
+    --blue-66: #1c7ed666;
+    --blue-77: #1c7ed677;
+    --blue-88: #1c7ed688;
+    --blue-99: #1c7ed699;
+    --blue-aa: #1c7ed6aa;
+    --blue-bb: #1c7ed6bb;
+    --blue-cc: #1c7ed6cc;
+    --blue-dd: #1c7ed6dd;
+    --blue-ee: #1c7ed6ee;
+
+    --indigo-light-9: color-mix(in srgb, var(--indigo-normal) 10%, white);
+    --indigo-light-8: color-mix(in srgb, var(--indigo-normal) 20%, white);
+    --indigo-light-7: color-mix(in srgb, var(--indigo-normal) 30%, white);
+    --indigo-light-6: color-mix(in srgb, var(--indigo-normal) 40%, white);
+    --indigo-light-5: color-mix(in srgb, var(--indigo-normal) 50%, white);
+    --indigo-light-4: color-mix(in srgb, var(--indigo-normal) 60%, white);
+    --indigo-light-3: color-mix(in srgb, var(--indigo-normal) 70%, white);
+    --indigo-light-2: color-mix(in srgb, var(--indigo-normal) 80%, white);
+    --indigo-light-1: color-mix(in srgb, var(--indigo-normal) 90%, white);
+    --indigo-normal: #4263eb;
+    --indigo-dark-1: color-mix(in srgb, var(--indigo-normal) 90%, black);
+    --indigo-dark-2: color-mix(in srgb, var(--indigo-normal) 80%, black);
+    --indigo-dark-3: color-mix(in srgb, var(--indigo-normal) 70%, black);
+    --indigo-dark-4: color-mix(in srgb, var(--indigo-normal) 60%, black);
+    --indigo-dark-5: color-mix(in srgb, var(--indigo-normal) 50%, black);
+    --indigo-dark-6: color-mix(in srgb, var(--indigo-normal) 40%, black);
+    --indigo-dark-7: color-mix(in srgb, var(--indigo-normal) 30%, black);
+    --indigo-dark-8: color-mix(in srgb, var(--indigo-normal) 20%, black);
+    --indigo-dark-9: color-mix(in srgb, var(--indigo-normal) 10%, black);
+    --indigo-11: #4263eb11;
+    --indigo-22: #4263eb22;
+    --indigo-33: #4263eb33;
+    --indigo-44: #4263eb44;
+    --indigo-55: #4263eb55;
+    --indigo-66: #4263eb66;
+    --indigo-77: #4263eb77;
+    --indigo-88: #4263eb88;
+    --indigo-99: #4263eb99;
+    --indigo-aa: #4263ebaa;
+    --indigo-bb: #4263ebbb;
+    --indigo-cc: #4263ebcc;
+    --indigo-dd: #4263ebdd;
+    --indigo-ee: #4263ebee;
+
+    --cyan-light-9: color-mix(in srgb, var(--cyan-normal) 10%, white);
+    --cyan-light-8: color-mix(in srgb, var(--cyan-normal) 20%, white);
+    --cyan-light-7: color-mix(in srgb, var(--cyan-normal) 30%, white);
+    --cyan-light-6: color-mix(in srgb, var(--cyan-normal) 40%, white);
+    --cyan-light-5: color-mix(in srgb, var(--cyan-normal) 50%, white);
+    --cyan-light-4: color-mix(in srgb, var(--cyan-normal) 60%, white);
+    --cyan-light-3: color-mix(in srgb, var(--cyan-normal) 70%, white);
+    --cyan-light-2: color-mix(in srgb, var(--cyan-normal) 80%, white);
+    --cyan-light-1: color-mix(in srgb, var(--cyan-normal) 90%, white);
+    --cyan-normal: #1098ad;
+    --cyan-dark-1: color-mix(in srgb, var(--cyan-normal) 90%, black);
+    --cyan-dark-2: color-mix(in srgb, var(--cyan-normal) 80%, black);
+    --cyan-dark-3: color-mix(in srgb, var(--cyan-normal) 70%, black);
+    --cyan-dark-4: color-mix(in srgb, var(--cyan-normal) 60%, black);
+    --cyan-dark-5: color-mix(in srgb, var(--cyan-normal) 50%, black);
+    --cyan-dark-6: color-mix(in srgb, var(--cyan-normal) 40%, black);
+    --cyan-dark-7: color-mix(in srgb, var(--cyan-normal) 30%, black);
+    --cyan-dark-8: color-mix(in srgb, var(--cyan-normal) 20%, black);
+    --cyan-dark-9: color-mix(in srgb, var(--cyan-normal) 10%, black);
+    --cyan-11: #1098ad11;
+    --cyan-22: #1098ad22;
+    --cyan-33: #1098ad33;
+    --cyan-44: #1098ad44;
+    --cyan-55: #1098ad55;
+    --cyan-66: #1098ad66;
+    --cyan-77: #1098ad77;
+    --cyan-88: #1098ad88;
+    --cyan-99: #1098ad99;
+    --cyan-aa: #1098adaa;
+    --cyan-bb: #1098adbb;
+    --cyan-cc: #1098adcc;
+    --cyan-dd: #1098addd;
+    --cyan-ee: #1098adee;
+
+    --teal-light-9: color-mix(in srgb, var(--teal-normal) 10%, white);
+    --teal-light-8: color-mix(in srgb, var(--teal-normal) 20%, white);
+    --teal-light-7: color-mix(in srgb, var(--teal-normal) 30%, white);
+    --teal-light-6: color-mix(in srgb, var(--teal-normal) 40%, white);
+    --teal-light-5: color-mix(in srgb, var(--teal-normal) 50%, white);
+    --teal-light-4: color-mix(in srgb, var(--teal-normal) 60%, white);
+    --teal-light-3: color-mix(in srgb, var(--teal-normal) 70%, white);
+    --teal-light-2: color-mix(in srgb, var(--teal-normal) 80%, white);
+    --teal-light-1: color-mix(in srgb, var(--teal-normal) 90%, white);
+    --teal-normal: #0ca678;
+    --teal-dark-1: color-mix(in srgb, var(--teal-normal) 90%, black);
+    --teal-dark-2: color-mix(in srgb, var(--teal-normal) 80%, black);
+    --teal-dark-3: color-mix(in srgb, var(--teal-normal) 70%, black);
+    --teal-dark-4: color-mix(in srgb, var(--teal-normal) 60%, black);
+    --teal-dark-5: color-mix(in srgb, var(--teal-normal) 50%, black);
+    --teal-dark-6: color-mix(in srgb, var(--teal-normal) 40%, black);
+    --teal-dark-7: color-mix(in srgb, var(--teal-normal) 30%, black);
+    --teal-dark-8: color-mix(in srgb, var(--teal-normal) 20%, black);
+    --teal-dark-9: color-mix(in srgb, var(--teal-normal) 10%, black);
+    --teal-11: #0ca67811;
+    --teal-22: #0ca67822;
+    --teal-33: #0ca67833;
+    --teal-44: #0ca67844;
+    --teal-55: #0ca67855;
+    --teal-66: #0ca67866;
+    --teal-77: #0ca67877;
+    --teal-88: #0ca67888;
+    --teal-99: #0ca67899;
+    --teal-aa: #0ca678aa;
+    --teal-bb: #0ca678bb;
+    --teal-cc: #0ca678cc;
+    --teal-dd: #0ca678dd;
+    --teal-ee: #0ca678ee;
+
+    --green-light-9: color-mix(in srgb, var(--green-normal) 10%, white);
+    --green-light-8: color-mix(in srgb, var(--green-normal) 20%, white);
+    --green-light-7: color-mix(in srgb, var(--green-normal) 30%, white);
+    --green-light-6: color-mix(in srgb, var(--green-normal) 40%, white);
+    --green-light-5: color-mix(in srgb, var(--green-normal) 50%, white);
+    --green-light-4: color-mix(in srgb, var(--green-normal) 60%, white);
+    --green-light-3: color-mix(in srgb, var(--green-normal) 70%, white);
+    --green-light-2: color-mix(in srgb, var(--green-normal) 80%, white);
+    --green-light-1: color-mix(in srgb, var(--green-normal) 90%, white);
+    --green-normal: #37b24d;
+    --green-dark-1: color-mix(in srgb, var(--green-normal) 90%, black);
+    --green-dark-2: color-mix(in srgb, var(--green-normal) 80%, black);
+    --green-dark-3: color-mix(in srgb, var(--green-normal) 70%, black);
+    --green-dark-4: color-mix(in srgb, var(--green-normal) 60%, black);
+    --green-dark-5: color-mix(in srgb, var(--green-normal) 50%, black);
+    --green-dark-6: color-mix(in srgb, var(--green-normal) 40%, black);
+    --green-dark-7: color-mix(in srgb, var(--green-normal) 30%, black);
+    --green-dark-8: color-mix(in srgb, var(--green-normal) 20%, black);
+    --green-dark-9: color-mix(in srgb, var(--green-normal) 10%, black);
+    --green-11: #37b24d11;
+    --green-22: #37b24d22;
+    --green-33: #37b24d33;
+    --green-44: #37b24d44;
+    --green-55: #37b24d55;
+    --green-66: #37b24d66;
+    --green-77: #37b24d77;
+    --green-88: #37b24d88;
+    --green-99: #37b24d99;
+    --green-aa: #37b24daa;
+    --green-bb: #37b24dbb;
+    --green-cc: #37b24dcc;
+    --green-dd: #37b24ddd;
+    --green-ee: #37b24dee;
+
+    --lime-light-9: color-mix(in srgb, var(--lime-normal) 10%, white);
+    --lime-light-8: color-mix(in srgb, var(--lime-normal) 20%, white);
+    --lime-light-7: color-mix(in srgb, var(--lime-normal) 30%, white);
+    --lime-light-6: color-mix(in srgb, var(--lime-normal) 40%, white);
+    --lime-light-5: color-mix(in srgb, var(--lime-normal) 50%, white);
+    --lime-light-4: color-mix(in srgb, var(--lime-normal) 60%, white);
+    --lime-light-3: color-mix(in srgb, var(--lime-normal) 70%, white);
+    --lime-light-2: color-mix(in srgb, var(--lime-normal) 80%, white);
+    --lime-light-1: color-mix(in srgb, var(--lime-normal) 90%, white);
+    --lime-normal: #74b816;
+    --lime-dark-1: color-mix(in srgb, var(--lime-normal) 90%, black);
+    --lime-dark-2: color-mix(in srgb, var(--lime-normal) 80%, black);
+    --lime-dark-3: color-mix(in srgb, var(--lime-normal) 70%, black);
+    --lime-dark-4: color-mix(in srgb, var(--lime-normal) 60%, black);
+    --lime-dark-5: color-mix(in srgb, var(--lime-normal) 50%, black);
+    --lime-dark-6: color-mix(in srgb, var(--lime-normal) 40%, black);
+    --lime-dark-7: color-mix(in srgb, var(--lime-normal) 30%, black);
+    --lime-dark-8: color-mix(in srgb, var(--lime-normal) 20%, black);
+    --lime-dark-9: color-mix(in srgb, var(--lime-normal) 10%, black);
+    --lime-11: #74b81611;
+    --lime-22: #74b81622;
+    --lime-33: #74b81633;
+    --lime-44: #74b81644;
+    --lime-55: #74b81655;
+    --lime-66: #74b81666;
+    --lime-77: #74b81677;
+    --lime-88: #74b81688;
+    --lime-99: #74b81699;
+    --lime-aa: #74b816aa;
+    --lime-bb: #74b816bb;
+    --lime-cc: #74b816cc;
+    --lime-dd: #74b816dd;
+    --lime-ee: #74b816ee;
+
+    --yellow-light-9: color-mix(in srgb, var(--yellow-normal) 10%, white);
+    --yellow-light-8: color-mix(in srgb, var(--yellow-normal) 20%, white);
+    --yellow-light-7: color-mix(in srgb, var(--yellow-normal) 30%, white);
+    --yellow-light-6: color-mix(in srgb, var(--yellow-normal) 40%, white);
+    --yellow-light-5: color-mix(in srgb, var(--yellow-normal) 50%, white);
+    --yellow-light-4: color-mix(in srgb, var(--yellow-normal) 60%, white);
+    --yellow-light-3: color-mix(in srgb, var(--yellow-normal) 70%, white);
+    --yellow-light-2: color-mix(in srgb, var(--yellow-normal) 80%, white);
+    --yellow-light-1: color-mix(in srgb, var(--yellow-normal) 90%, white);
+    --yellow-normal: #f59f00;
+    --yellow-dark-1: color-mix(in srgb, var(--yellow-normal) 90%, black);
+    --yellow-dark-2: color-mix(in srgb, var(--yellow-normal) 80%, black);
+    --yellow-dark-3: color-mix(in srgb, var(--yellow-normal) 70%, black);
+    --yellow-dark-4: color-mix(in srgb, var(--yellow-normal) 60%, black);
+    --yellow-dark-5: color-mix(in srgb, var(--yellow-normal) 50%, black);
+    --yellow-dark-6: color-mix(in srgb, var(--yellow-normal) 40%, black);
+    --yellow-dark-7: color-mix(in srgb, var(--yellow-normal) 30%, black);
+    --yellow-dark-8: color-mix(in srgb, var(--yellow-normal) 20%, black);
+    --yellow-dark-9: color-mix(in srgb, var(--yellow-normal) 10%, black);
+    --yellow-11: #f59f0011;
+    --yellow-22: #f59f0022;
+    --yellow-33: #f59f0033;
+    --yellow-44: #f59f0044;
+    --yellow-55: #f59f0055;
+    --yellow-66: #f59f0066;
+    --yellow-77: #f59f0077;
+    --yellow-88: #f59f0088;
+    --yellow-99: #f59f0099;
+    --yellow-aa: #f59f00aa;
+    --yellow-bb: #f59f00bb;
+    --yellow-cc: #f59f00cc;
+    --yellow-dd: #f59f00dd;
+    --yellow-ee: #f59f00ee;
+
+    --orange-light-9: color-mix(in srgb, var(--orange-normal) 10%, white);
+    --orange-light-8: color-mix(in srgb, var(--orange-normal) 20%, white);
+    --orange-light-7: color-mix(in srgb, var(--orange-normal) 30%, white);
+    --orange-light-6: color-mix(in srgb, var(--orange-normal) 40%, white);
+    --orange-light-5: color-mix(in srgb, var(--orange-normal) 50%, white);
+    --orange-light-4: color-mix(in srgb, var(--orange-normal) 60%, white);
+    --orange-light-3: color-mix(in srgb, var(--orange-normal) 70%, white);
+    --orange-light-2: color-mix(in srgb, var(--orange-normal) 80%, white);
+    --orange-light-1: color-mix(in srgb, var(--orange-normal) 90%, white);
+    --orange-normal: #f76707;
+    --orange-dark-1: color-mix(in srgb, var(--orange-normal) 90%, black);
+    --orange-dark-2: color-mix(in srgb, var(--orange-normal) 80%, black);
+    --orange-dark-3: color-mix(in srgb, var(--orange-normal) 70%, black);
+    --orange-dark-4: color-mix(in srgb, var(--orange-normal) 60%, black);
+    --orange-dark-5: color-mix(in srgb, var(--orange-normal) 50%, black);
+    --orange-dark-6: color-mix(in srgb, var(--orange-normal) 40%, black);
+    --orange-dark-7: color-mix(in srgb, var(--orange-normal) 30%, black);
+    --orange-dark-8: color-mix(in srgb, var(--orange-normal) 20%, black);
+    --orange-dark-9: color-mix(in srgb, var(--orange-normal) 10%, black);
+    --orange-11: #f7670711;
+    --orange-22: #f7670722;
+    --orange-33: #f7670733;
+    --orange-44: #f7670744;
+    --orange-55: #f7670755;
+    --orange-66: #f7670766;
+    --orange-77: #f7670777;
+    --orange-88: #f7670788;
+    --orange-99: #f7670799;
+    --orange-aa: #f76707aa;
+    --orange-bb: #f76707bb;
+    --orange-cc: #f76707cc;
+    --orange-dd: #f76707dd;
+    --orange-ee: #f76707ee;
+
+    --gray-light-9: color-mix(in srgb, var(--gray-normal) 10%, white);
+    --gray-light-8: color-mix(in srgb, var(--gray-normal) 20%, white);
+    --gray-light-7: color-mix(in srgb, var(--gray-normal) 30%, white);
+    --gray-light-6: color-mix(in srgb, var(--gray-normal) 40%, white);
+    --gray-light-5: color-mix(in srgb, var(--gray-normal) 50%, white);
+    --gray-light-4: color-mix(in srgb, var(--gray-normal) 60%, white);
+    --gray-light-3: color-mix(in srgb, var(--gray-normal) 70%, white);
+    --gray-light-2: color-mix(in srgb, var(--gray-normal) 80%, white);
+    --gray-light-1: color-mix(in srgb, var(--gray-normal) 90%, white);
+    --gray-normal: #495057;
+    --gray-dark-1: color-mix(in srgb, var(--gray-normal) 90%, black);
+    --gray-dark-2: color-mix(in srgb, var(--gray-normal) 80%, black);
+    --gray-dark-3: color-mix(in srgb, var(--gray-normal) 70%, black);
+    --gray-dark-4: color-mix(in srgb, var(--gray-normal) 60%, black);
+    --gray-dark-5: color-mix(in srgb, var(--gray-normal) 50%, black);
+    --gray-dark-6: color-mix(in srgb, var(--gray-normal) 40%, black);
+    --gray-dark-7: color-mix(in srgb, var(--gray-normal) 30%, black);
+    --gray-dark-8: color-mix(in srgb, var(--gray-normal) 20%, black);
+    --gray-dark-9: color-mix(in srgb, var(--gray-normal) 10%, black);
+    --gray-11: #49505711;
+    --gray-22: #49505722;
+    --gray-33: #49505733;
+    --gray-44: #49505744;
+    --gray-55: #49505755;
+    --gray-66: #49505766;
+    --gray-77: #49505777;
+    --gray-88: #49505788;
+    --gray-99: #49505799;
+    --gray-aa: #495057aa;
+    --gray-bb: #495057bb;
+    --gray-cc: #495057cc;
+    --gray-dd: #495057dd;
+    --gray-ee: #495057ee;
+
+    --accent-light-9: var(--blue-light-9);
+    --accent-light-8: var(--blue-light-8);
+    --accent-light-7: var(--blue-light-7);
+    --accent-light-6: var(--blue-light-6);
+    --accent-light-5: var(--blue-light-5);
+    --accent-light-4: var(--blue-light-4);
+    --accent-light-3: var(--blue-light-3);
+    --accent-light-2: var(--blue-light-2);
+    --accent-light-1: var(--blue-light-1);
+    --accent-normal: var(--blue-normal);
+    --accent-dark-1: var(--blue-dark-1);
+    --accent-dark-2: var(--blue-dark-2);
+    --accent-dark-3: var(--blue-dark-3);
+    --accent-dark-4: var(--blue-dark-4);
+    --accent-dark-5: var(--blue-dark-5);
+    --accent-dark-6: var(--blue-dark-6);
+    --accent-dark-7: var(--blue-dark-7);
+    --accent-dark-8: var(--blue-dark-8);
+    --accent-dark-9: var(--blue-dark-9);
+    --accent-11: var(--blue-11);
+    --accent-22: var(--blue-22);
+    --accent-33: var(--blue-33);
+    --accent-44: var(--blue-44);
+    --accent-55: var(--blue-55);
+    --accent-66: var(--blue-66);
+    --accent-77: var(--blue-77);
+    --accent-88: var(--blue-88);
+    --accent-99: var(--blue-99);
+    --accent-aa: var(--blue-aa);
+    --accent-bb: var(--blue-bb);
+    --accent-cc: var(--blue-cc);
+    --accent-dd: var(--blue-dd);
+    --accent-ee: var(--blue-ee);
+
+    --background: #f6f8fb;
+    --text-primary: var(--gray-dark-9);
+
+    --h1: 2.5rem;
+    --h2: 2rem;
+    --h3: 1.75rem;
+    --h4: 1.5rem;
+    --h5: 1.25rem;
+    --h6: 1rem;
+    --body: 1rem;
+    --subtitle: 0.875rem;
+    --caption: 0.75rem;
+
+    /* Utilities Size */
+    --size-xxs: 0.25rem;
+    --size-xs: 0.5rem;
+    --size-sm: 0.75rem;
+    --size-md: 1rem;
+    --size-lg: 1.5rem;
+    --size-xl: 2rem;
+    --size-xxl: 3rem;
+
+    /* Animation Duration */
+    --animation-faster: 83ms;
+    --animation-fast: 167ms;
+    --animation-medium: 250ms;
+    --animation-slow: 358ms;
+
+    --bg-base: #f3f3f3;
+    --bg-secondary: #eeeeee;
+    --bg-tertiary: #f9f9f9;
+    --bg-quarternary: #ffffff;
+    --bg-transparent: #f3f3f300;
+    --bg-base-alt: #dadada;
+    --bg-acrylic: #ffffffdd;
+
+    --btn-primary: var(--gray-22);
+    --btn-secondary: var(--gray-11);
+    --btn-tertiary: var(--gray-33);
+    --btn-disable: #00000000;
+    --btn-input-field-active: #ffffff;
+
+    --btn-border-primary: var(--gray-33);
+    --btn-border-secondary: var(--gray-22);
+    --btn-border-tertiary: var(--gray-44);
+    --btn-border-disable: var(--gray-11);
+
+    --subtle-primary: #20202000;
+    --subtle-secondary: var(--gray-22);
+    --subtle-tertiary: var(--gray-33);
+    --subtle-active: var(--gray-11);
+    --subtle-disable: #20202000;
+
+    --text-primary: #101010cc;
+    --text-secondary: #10101099;
+    --text-tertiary: #10101077;
+    --text-disable: #10101055;
+
+    --text-on-accent-primary: #f3f3f3cc;
+    --text-on-accent-secondary: #f3f3f399;
+    --text-on-accent-tertiary: #f3f3f377;
+    --text-on-accent-disable: #10101055;
+
+    --text-on-fill-btn-primary: #f3f3f3cc;
+    --text-on-fill-btn-secondary: #f3f3f399;
+    --text-on-fill-btn-tertiary: #f3f3f377;
+    --text-on-fill-btn-disable: #10101055;
+
+    --gray-primary: var(--gray-normal);
+    --gray-secondary: var(--gray-dark-1);
+    --gray-tertiary: var(--gray-dark-2);
+    --red-primary: var(--red-normal);
+    --red-secondary: var(--red-dark-1);
+    --red-tertiary: var(--red-dark-2);
+    --pink-primary: var(--pink-normal);
+    --pink-secondary: var(--pink-dark-1);
+    --pink-tertiary: var(--pink-dark-2);
+    --magenta-primary: var(--magenta-normal);
+    --magenta-secondary: var(--magenta-dark-1);
+    --magenta-tertiary: var(--magenta-dark-2);
+    --purple-primary: var(--purple-normal);
+    --purple-secondary: var(--purple-dark-1);
+    --purple-tertiary: var(--purple-dark-2);
+    --blue-primary: var(--blue-normal);
+    --blue-secondary: var(--blue-dark-1);
+    --blue-tertiary: var(--blue-dark-2);
+    --indigo-primary: var(--indigo-normal);
+    --indigo-secondary: var(--indigo-dark-1);
+    --indigo-tertiary: var(--indigo-dark-2);
+    --cyan-primary: var(--cyan-normal);
+    --cyan-secondary: var(--cyan-dark-1);
+    --cyan-tertiary: var(--cyan-dark-2);
+    --teal-primary: var(--teal-normal);
+    --teal-secondary: var(--teal-dark-1);
+    --teal-tertiary: var(--teal-dark-2);
+    --green-primary: var(--green-normal);
+    --green-secondary: var(--green-dark-1);
+    --green-tertiary: var(--green-dark-2);
+    --lime-primary: var(--lime-normal);
+    --lime-secondary: var(--lime-dark-1);
+    --lime-tertiary: var(--lime-dark-2);
+    --yellow-primary: var(--yellow-normal);
+    --yellow-secondary: var(--yellow-dark-1);
+    --yellow-tertiary: var(--yellow-dark-2);
+    --orange-primary: var(--orange-normal);
+    --orange-secondary: var(--orange-dark-1);
+    --orange-tertiary: var(--orange-dark-2);
+    --accent-primary: var(--accent-normal);
+    --accent-secondary: var(--accent-dark-1);
+    --accent-tertiary: var(--accent-dark-2);
+}
+
+:root[data-theme="dark"] {
+    --bg-base: #101010;
+    --bg-secondary: #0c0c0c;
+    --bg-tertiary: #181818;
+    --bg-quarternary: #2c2c2c;
+    --bg-transparent: #10101000;
+    --bg-base-alt: #0a0a0a;
+    --bg-acrylic: #ffffff44;
+
+    --btn-primary: var(--gray-66);
+    --btn-secondary: var(--gray-77);
+    --btn-tertiary: var(--gray-55);
+    --btn-disable: var(--gray-44);
+    --btn-input-field-active: #101010;
+
+    --text-primary: #f3f3f3cc;
+    --text-secondary: #f3f3f399;
+    --text-tertiary: #f3f3f377;
+    --text-disable: #f3f3f355;
+
+    --text-on-accent-primary: #101010cc;
+    --text-on-accent-secondary: #10101099;
+    --text-on-accent-tertiary: #10101077;
+    --text-on-accent-disable: #f3f3f355;
+
+    --text-on-fill-btn-primary: #f3f3f3cc;
+    --text-on-fill-btn-secondary: #f3f3f399;
+    --text-on-fill-btn-tertiary: #f3f3f377;
+    --text-on-fill-btn-disable: #f3f3f355;
+
+    --subtle-primary: #20202000;
+    --subtle-secondary: var(--gray-66);
+    --subtle-tertiary: var(--gray-44);
+    --subtle-disable: #20202000;
+
+    --gray-primary: var(--gray-normal);
+    --gray-secondary: var(--gray-light-1);
+    --gray-tertiary: var(--gray-light-2);
+    --red-primary: var(--red-normal);
+    --red-secondary: var(--red-light-1);
+    --red-tertiary: var(--red-light-2);
+    --pink-primary: var(--pink-normal);
+    --pink-secondary: var(--pink-light-1);
+    --pink-tertiary: var(--pink-light-2);
+    --magenta-primary: var(--magenta-normal);
+    --magenta-secondary: var(--magenta-light-1);
+    --magenta-tertiary: var(--magenta-light-2);
+    --purple-primary: var(--purple-normal);
+    --purple-secondary: var(--purple-light-1);
+    --purple-tertiary: var(--purple-light-2);
+    --blue-primary: var(--blue-normal);
+    --blue-secondary: var(--blue-light-1);
+    --blue-tertiary: var(--blue-light-2);
+    --indigo-primary: var(--indigo-normal);
+    --indigo-secondary: var(--indigo-light-1);
+    --indigo-tertiary: var(--indigo-light-2);
+    --cyan-primary: var(--cyan-normal);
+    --cyan-secondary: var(--cyan-light-1);
+    --cyan-tertiary: var(--cyan-light-2);
+    --teal-primary: var(--teal-normal);
+    --teal-secondary: var(--teal-light-1);
+    --teal-tertiary: var(--teal-light-2);
+    --green-primary: var(--green-normal);
+    --green-secondary: var(--green-light-1);
+    --green-tertiary: var(--green-light-2);
+    --lime-primary: var(--lime-normal);
+    --lime-secondary: var(--lime-light-1);
+    --lime-tertiary: var(--lime-light-2);
+    --yellow-primary: var(--yellow-normal);
+    --yellow-secondary: var(--yellow-light-1);
+    --yellow-tertiary: var(--yellow-light-2);
+    --orange-primary: var(--orange-normal);
+    --orange-secondary: var(--orange-light-1);
+    --orange-tertiary: var(--orange-light-2);
+    --accent-primary: var(--accent-normal);
+    --accent-secondary: var(--accent-light-1);
+    --accent-tertiary: var(--accent-light-2);
+}
+
+.accent-red,
+.accent-pink,
+.accent-magenta,
+.accent-purple,
+.accent-blue,
+.accent-indigo,
+.accent-cyan,
+.accent-teal,
+.accent-green,
+.accent-lime,
+.accent-yellow,
+.accent-orange {
+    --accent-primary: var(--accent-normal);
+    --accent-secondary: var(--accent-light-1);
+    --accent-tertiary: var(--accent-light-2);
+}
+
+/* :root[data-theme="dark"] .accent-red,
+:root[data-theme="dark"] .accent-pink,
+:root[data-theme="dark"] .accent-magenta,
+:root[data-theme="dark"] .accent-purple,
+:root[data-theme="dark"] .accent-blue,
+:root[data-theme="dark"] .accent-indigo,
+:root[data-theme="dark"] .accent-cyan,
+:root[data-theme="dark"] .accent-teal,
+:root[data-theme="dark"] .accent-green,
+:root[data-theme="dark"] .accent-lime,
+:root[data-theme="dark"] .accent-yellow,
+:root[data-theme="dark"] .accent-orange {} */
+
+.qbtn.qbtn-accent {
+    --btn-primary: var(--accent-primary);
+    --btn-secondary: var(--accent-secondary);
+    --btn-tertiary: var(--accent-tertiary);
+}
+
+.qbtn.qbtn-gray {
+    --btn-primary: var(--gray-primary);
+    --btn-secondary: var(--gray-secondary);
+    --btn-tertiary: var(--gray-tertiary);
+}
+
+.qbtn.qbtn-red {
+    --btn-primary: var(--red-primary);
+    --btn-secondary: var(--red-secondary);
+    --btn-tertiary: var(--red-tertiary);
+}
+
+.qbtn.qbtn-pink {
+    --btn-primary: var(--pink-primary);
+    --btn-secondary: var(--pink-secondary);
+    --btn-tertiary: var(--pink-tertiary);
+}
+
+.qbtn.qbtn-magenta {
+    --btn-primary: var(--magenta-primary);
+    --btn-secondary: var(--magenta-secondary);
+    --btn-tertiary: var(--magenta-tertiary);
+}
+
+.qbtn.qbtn-purple {
+    --btn-primary: var(--purple-primary);
+    --btn-secondary: var(--purple-secondary);
+    --btn-tertiary: var(--purple-tertiary);
+}
+
+.qbtn.qbtn-blue {
+    --btn-primary: var(--blue-primary);
+    --btn-secondary: var(--blue-secondary);
+    --btn-tertiary: var(--blue-tertiary);
+}
+
+.qbtn.qbtn-indigo {
+    --btn-primary: var(--indigo-primary);
+    --btn-secondary: var(--indigo-secondary);
+    --btn-tertiary: var(--indigo-tertiary);
+}
+
+.qbtn.qbtn-cyan {
+    --btn-primary: var(--cyan-primary);
+    --btn-secondary: var(--cyan-secondary);
+    --btn-tertiary: var(--cyan-tertiary);
+}
+
+.qbtn.qbtn-teal {
+    --btn-primary: var(--teal-primary);
+    --btn-secondary: var(--teal-secondary);
+    --btn-tertiary: var(--teal-tertiary);
+}
+
+.qbtn.qbtn-green {
+    --btn-primary: var(--green-primary);
+    --btn-secondary: var(--green-secondary);
+    --btn-tertiary: var(--green-tertiary);
+}
+
+.qbtn.qbtn-lime {
+    --btn-primary: var(--lime-primary);
+    --btn-secondary: var(--lime-secondary);
+    --btn-tertiary: var(--lime-tertiary);
+}
+
+.qbtn.qbtn-yellow {
+    --btn-primary: var(--yellow-primary);
+    --btn-secondary: var(--yellow-secondary);
+    --btn-tertiary: var(--yellow-tertiary);
+}
+
+.qbtn.qbtn-orange {
+    --btn-primary: var(--orange-primary);
+    --btn-secondary: var(--orange-secondary);
+    --btn-tertiary: var(--orange-tertiary);
+}
+
+.accent-red {
+    --accent-light-9: var(--red-light-9);
+    --accent-light-8: var(--red-light-8);
+    --accent-light-7: var(--red-light-7);
+    --accent-light-6: var(--red-light-6);
+    --accent-light-5: var(--red-light-5);
+    --accent-light-4: var(--red-light-4);
+    --accent-light-3: var(--red-light-3);
+    --accent-light-2: var(--red-light-2);
+    --accent-light-1: var(--red-light-1);
+    --accent-normal: var(--red-normal);
+    --accent-dark-1: var(--red-dark-1);
+    --accent-dark-2: var(--red-dark-2);
+    --accent-dark-3: var(--red-dark-3);
+    --accent-dark-4: var(--red-dark-4);
+    --accent-dark-5: var(--red-dark-5);
+    --accent-dark-6: var(--red-dark-6);
+    --accent-dark-7: var(--red-dark-7);
+    --accent-dark-8: var(--red-dark-8);
+    --accent-dark-9: var(--red-dark-9);
+    --accent-11: var(--red-11);
+    --accent-22: var(--red-22);
+    --accent-33: var(--red-33);
+    --accent-44: var(--red-44);
+    --accent-55: var(--red-55);
+    --accent-66: var(--red-66);
+    --accent-77: var(--red-77);
+    --accent-88: var(--red-88);
+    --accent-99: var(--red-99);
+    --accent-aa: var(--red-aa);
+    --accent-bb: var(--red-bb);
+    --accent-cc: var(--red-cc);
+    --accent-dd: var(--red-dd);
+    --accent-ee: var(--red-ee);
+}
+
+.accent-pink {
+    --accent-light-9: var(--pink-light-9);
+    --accent-light-8: var(--pink-light-8);
+    --accent-light-7: var(--pink-light-7);
+    --accent-light-6: var(--pink-light-6);
+    --accent-light-5: var(--pink-light-5);
+    --accent-light-4: var(--pink-light-4);
+    --accent-light-3: var(--pink-light-3);
+    --accent-light-2: var(--pink-light-2);
+    --accent-light-1: var(--pink-light-1);
+    --accent-normal: var(--pink-normal);
+    --accent-dark-1: var(--pink-dark-1);
+    --accent-dark-2: var(--pink-dark-2);
+    --accent-dark-3: var(--pink-dark-3);
+    --accent-dark-4: var(--pink-dark-4);
+    --accent-dark-5: var(--pink-dark-5);
+    --accent-dark-6: var(--pink-dark-6);
+    --accent-dark-7: var(--pink-dark-7);
+    --accent-dark-8: var(--pink-dark-8);
+    --accent-dark-9: var(--pink-dark-9);
+    --accent-11: var(--pink-11);
+    --accent-22: var(--pink-22);
+    --accent-33: var(--pink-33);
+    --accent-44: var(--pink-44);
+    --accent-55: var(--pink-55);
+    --accent-66: var(--pink-66);
+    --accent-77: var(--pink-77);
+    --accent-88: var(--pink-88);
+    --accent-99: var(--pink-99);
+    --accent-aa: var(--pink-aa);
+    --accent-bb: var(--pink-bb);
+    --accent-cc: var(--pink-cc);
+    --accent-dd: var(--pink-dd);
+    --accent-ee: var(--pink-ee);
+}
+
+.accent-magenta {
+    --accent-light-9: var(--magenta-light-9);
+    --accent-light-8: var(--magenta-light-8);
+    --accent-light-7: var(--magenta-light-7);
+    --accent-light-6: var(--magenta-light-6);
+    --accent-light-5: var(--magenta-light-5);
+    --accent-light-4: var(--magenta-light-4);
+    --accent-light-3: var(--magenta-light-3);
+    --accent-light-2: var(--magenta-light-2);
+    --accent-light-1: var(--magenta-light-1);
+    --accent-normal: var(--magenta-normal);
+    --accent-dark-1: var(--magenta-dark-1);
+    --accent-dark-2: var(--magenta-dark-2);
+    --accent-dark-3: var(--magenta-dark-3);
+    --accent-dark-4: var(--magenta-dark-4);
+    --accent-dark-5: var(--magenta-dark-5);
+    --accent-dark-6: var(--magenta-dark-6);
+    --accent-dark-7: var(--magenta-dark-7);
+    --accent-dark-8: var(--magenta-dark-8);
+    --accent-dark-9: var(--magenta-dark-9);
+    --accent-11: var(--magenta-11);
+    --accent-22: var(--magenta-22);
+    --accent-33: var(--magenta-33);
+    --accent-44: var(--magenta-44);
+    --accent-55: var(--magenta-55);
+    --accent-66: var(--magenta-66);
+    --accent-77: var(--magenta-77);
+    --accent-88: var(--magenta-88);
+    --accent-99: var(--magenta-99);
+    --accent-aa: var(--magenta-aa);
+    --accent-bb: var(--magenta-bb);
+    --accent-cc: var(--magenta-cc);
+    --accent-dd: var(--magenta-dd);
+    --accent-ee: var(--magenta-ee);
+}
+
+.accent-purple {
+    --accent-light-9: var(--purple-light-9);
+    --accent-light-8: var(--purple-light-8);
+    --accent-light-7: var(--purple-light-7);
+    --accent-light-6: var(--purple-light-6);
+    --accent-light-5: var(--purple-light-5);
+    --accent-light-4: var(--purple-light-4);
+    --accent-light-3: var(--purple-light-3);
+    --accent-light-2: var(--purple-light-2);
+    --accent-light-1: var(--purple-light-1);
+    --accent-normal: var(--purple-normal);
+    --accent-dark-1: var(--purple-dark-1);
+    --accent-dark-2: var(--purple-dark-2);
+    --accent-dark-3: var(--purple-dark-3);
+    --accent-dark-4: var(--purple-dark-4);
+    --accent-dark-5: var(--purple-dark-5);
+    --accent-dark-6: var(--purple-dark-6);
+    --accent-dark-7: var(--purple-dark-7);
+    --accent-dark-8: var(--purple-dark-8);
+    --accent-dark-9: var(--purple-dark-9);
+    --accent-11: var(--purple-11);
+    --accent-22: var(--purple-22);
+    --accent-33: var(--purple-33);
+    --accent-44: var(--purple-44);
+    --accent-55: var(--purple-55);
+    --accent-66: var(--purple-66);
+    --accent-77: var(--purple-77);
+    --accent-88: var(--purple-88);
+    --accent-99: var(--purple-99);
+    --accent-aa: var(--purple-aa);
+    --accent-bb: var(--purple-bb);
+    --accent-cc: var(--purple-cc);
+    --accent-dd: var(--purple-dd);
+    --accent-ee: var(--purple-ee);
+}
+
+.accent-blue {
+    --accent-light-9: var(--blue-light-9);
+    --accent-light-8: var(--blue-light-8);
+    --accent-light-7: var(--blue-light-7);
+    --accent-light-6: var(--blue-light-6);
+    --accent-light-5: var(--blue-light-5);
+    --accent-light-4: var(--blue-light-4);
+    --accent-light-3: var(--blue-light-3);
+    --accent-light-2: var(--blue-light-2);
+    --accent-light-1: var(--blue-light-1);
+    --accent-normal: var(--blue-normal);
+    --accent-dark-1: var(--blue-dark-1);
+    --accent-dark-2: var(--blue-dark-2);
+    --accent-dark-3: var(--blue-dark-3);
+    --accent-dark-4: var(--blue-dark-4);
+    --accent-dark-5: var(--blue-dark-5);
+    --accent-dark-6: var(--blue-dark-6);
+    --accent-dark-7: var(--blue-dark-7);
+    --accent-dark-8: var(--blue-dark-8);
+    --accent-dark-9: var(--blue-dark-9);
+    --accent-11: var(--blue-11);
+    --accent-22: var(--blue-22);
+    --accent-33: var(--blue-33);
+    --accent-44: var(--blue-44);
+    --accent-55: var(--blue-55);
+    --accent-66: var(--blue-66);
+    --accent-77: var(--blue-77);
+    --accent-88: var(--blue-88);
+    --accent-99: var(--blue-99);
+    --accent-aa: var(--blue-aa);
+    --accent-bb: var(--blue-bb);
+    --accent-cc: var(--blue-cc);
+    --accent-dd: var(--blue-dd);
+    --accent-ee: var(--blue-ee);
+}
+
+.accent-indigo {
+    --accent-light-9: var(--indigo-light-9);
+    --accent-light-8: var(--indigo-light-8);
+    --accent-light-7: var(--indigo-light-7);
+    --accent-light-6: var(--indigo-light-6);
+    --accent-light-5: var(--indigo-light-5);
+    --accent-light-4: var(--indigo-light-4);
+    --accent-light-3: var(--indigo-light-3);
+    --accent-light-2: var(--indigo-light-2);
+    --accent-light-1: var(--indigo-light-1);
+    --accent-normal: var(--indigo-normal);
+    --accent-dark-1: var(--indigo-dark-1);
+    --accent-dark-2: var(--indigo-dark-2);
+    --accent-dark-3: var(--indigo-dark-3);
+    --accent-dark-4: var(--indigo-dark-4);
+    --accent-dark-5: var(--indigo-dark-5);
+    --accent-dark-6: var(--indigo-dark-6);
+    --accent-dark-7: var(--indigo-dark-7);
+    --accent-dark-8: var(--indigo-dark-8);
+    --accent-dark-9: var(--indigo-dark-9);
+    --accent-11: var(--indigo-11);
+    --accent-22: var(--indigo-22);
+    --accent-33: var(--indigo-33);
+    --accent-44: var(--indigo-44);
+    --accent-55: var(--indigo-55);
+    --accent-66: var(--indigo-66);
+    --accent-77: var(--indigo-77);
+    --accent-88: var(--indigo-88);
+    --accent-99: var(--indigo-99);
+    --accent-aa: var(--indigo-aa);
+    --accent-bb: var(--indigo-bb);
+    --accent-cc: var(--indigo-cc);
+    --accent-dd: var(--indigo-dd);
+    --accent-ee: var(--indigo-ee);
+}
+
+.accent-cyan {
+    --accent-light-9: var(--cyan-light-9);
+    --accent-light-8: var(--cyan-light-8);
+    --accent-light-7: var(--cyan-light-7);
+    --accent-light-6: var(--cyan-light-6);
+    --accent-light-5: var(--cyan-light-5);
+    --accent-light-4: var(--cyan-light-4);
+    --accent-light-3: var(--cyan-light-3);
+    --accent-light-2: var(--cyan-light-2);
+    --accent-light-1: var(--cyan-light-1);
+    --accent-normal: var(--cyan-normal);
+    --accent-dark-1: var(--cyan-dark-1);
+    --accent-dark-2: var(--cyan-dark-2);
+    --accent-dark-3: var(--cyan-dark-3);
+    --accent-dark-4: var(--cyan-dark-4);
+    --accent-dark-5: var(--cyan-dark-5);
+    --accent-dark-6: var(--cyan-dark-6);
+    --accent-dark-7: var(--cyan-dark-7);
+    --accent-dark-8: var(--cyan-dark-8);
+    --accent-dark-9: var(--cyan-dark-9);
+    --accent-11: var(--cyan-11);
+    --accent-22: var(--cyan-22);
+    --accent-33: var(--cyan-33);
+    --accent-44: var(--cyan-44);
+    --accent-55: var(--cyan-55);
+    --accent-66: var(--cyan-66);
+    --accent-77: var(--cyan-77);
+    --accent-88: var(--cyan-88);
+    --accent-99: var(--cyan-99);
+    --accent-aa: var(--cyan-aa);
+    --accent-bb: var(--cyan-bb);
+    --accent-cc: var(--cyan-cc);
+    --accent-dd: var(--cyan-dd);
+    --accent-ee: var(--cyan-ee);
+}
+
+.accent-teal {
+    --accent-light-9: var(--teal-light-9);
+    --accent-light-8: var(--teal-light-8);
+    --accent-light-7: var(--teal-light-7);
+    --accent-light-6: var(--teal-light-6);
+    --accent-light-5: var(--teal-light-5);
+    --accent-light-4: var(--teal-light-4);
+    --accent-light-3: var(--teal-light-3);
+    --accent-light-2: var(--teal-light-2);
+    --accent-light-1: var(--teal-light-1);
+    --accent-normal: var(--teal-normal);
+    --accent-dark-1: var(--teal-dark-1);
+    --accent-dark-2: var(--teal-dark-2);
+    --accent-dark-3: var(--teal-dark-3);
+    --accent-dark-4: var(--teal-dark-4);
+    --accent-dark-5: var(--teal-dark-5);
+    --accent-dark-6: var(--teal-dark-6);
+    --accent-dark-7: var(--teal-dark-7);
+    --accent-dark-8: var(--teal-dark-8);
+    --accent-dark-9: var(--teal-dark-9);
+    --accent-11: var(--teal-11);
+    --accent-22: var(--teal-22);
+    --accent-33: var(--teal-33);
+    --accent-44: var(--teal-44);
+    --accent-55: var(--teal-55);
+    --accent-66: var(--teal-66);
+    --accent-77: var(--teal-77);
+    --accent-88: var(--teal-88);
+    --accent-99: var(--teal-99);
+    --accent-aa: var(--teal-aa);
+    --accent-bb: var(--teal-bb);
+    --accent-cc: var(--teal-cc);
+    --accent-dd: var(--teal-dd);
+    --accent-ee: var(--teal-ee);
+}
+
+.accent-green {
+    --accent-light-9: var(--green-light-9);
+    --accent-light-8: var(--green-light-8);
+    --accent-light-7: var(--green-light-7);
+    --accent-light-6: var(--green-light-6);
+    --accent-light-5: var(--green-light-5);
+    --accent-light-4: var(--green-light-4);
+    --accent-light-3: var(--green-light-3);
+    --accent-light-2: var(--green-light-2);
+    --accent-light-1: var(--green-light-1);
+    --accent-normal: var(--green-normal);
+    --accent-dark-1: var(--green-dark-1);
+    --accent-dark-2: var(--green-dark-2);
+    --accent-dark-3: var(--green-dark-3);
+    --accent-dark-4: var(--green-dark-4);
+    --accent-dark-5: var(--green-dark-5);
+    --accent-dark-6: var(--green-dark-6);
+    --accent-dark-7: var(--green-dark-7);
+    --accent-dark-8: var(--green-dark-8);
+    --accent-dark-9: var(--green-dark-9);
+    --accent-11: var(--green-11);
+    --accent-22: var(--green-22);
+    --accent-33: var(--green-33);
+    --accent-44: var(--green-44);
+    --accent-55: var(--green-55);
+    --accent-66: var(--green-66);
+    --accent-77: var(--green-77);
+    --accent-88: var(--green-88);
+    --accent-99: var(--green-99);
+    --accent-aa: var(--green-aa);
+    --accent-bb: var(--green-bb);
+    --accent-cc: var(--green-cc);
+    --accent-dd: var(--green-dd);
+    --accent-ee: var(--green-ee);
+}
+
+.accent-lime {
+    --accent-light-9: var(--lime-light-9);
+    --accent-light-8: var(--lime-light-8);
+    --accent-light-7: var(--lime-light-7);
+    --accent-light-6: var(--lime-light-6);
+    --accent-light-5: var(--lime-light-5);
+    --accent-light-4: var(--lime-light-4);
+    --accent-light-3: var(--lime-light-3);
+    --accent-light-2: var(--lime-light-2);
+    --accent-light-1: var(--lime-light-1);
+    --accent-normal: var(--lime-normal);
+    --accent-dark-1: var(--lime-dark-1);
+    --accent-dark-2: var(--lime-dark-2);
+    --accent-dark-3: var(--lime-dark-3);
+    --accent-dark-4: var(--lime-dark-4);
+    --accent-dark-5: var(--lime-dark-5);
+    --accent-dark-6: var(--lime-dark-6);
+    --accent-dark-7: var(--lime-dark-7);
+    --accent-dark-8: var(--lime-dark-8);
+    --accent-dark-9: var(--lime-dark-9);
+    --accent-11: var(--lime-11);
+    --accent-22: var(--lime-22);
+    --accent-33: var(--lime-33);
+    --accent-44: var(--lime-44);
+    --accent-55: var(--lime-55);
+    --accent-66: var(--lime-66);
+    --accent-77: var(--lime-77);
+    --accent-88: var(--lime-88);
+    --accent-99: var(--lime-99);
+    --accent-aa: var(--lime-aa);
+    --accent-bb: var(--lime-bb);
+    --accent-cc: var(--lime-cc);
+    --accent-dd: var(--lime-dd);
+    --accent-ee: var(--lime-ee);
+}
+
+.accent-yellow {
+    --accent-light-9: var(--yellow-light-9);
+    --accent-light-8: var(--yellow-light-8);
+    --accent-light-7: var(--yellow-light-7);
+    --accent-light-6: var(--yellow-light-6);
+    --accent-light-5: var(--yellow-light-5);
+    --accent-light-4: var(--yellow-light-4);
+    --accent-light-3: var(--yellow-light-3);
+    --accent-light-2: var(--yellow-light-2);
+    --accent-light-1: var(--yellow-light-1);
+    --accent-normal: var(--yellow-normal);
+    --accent-dark-1: var(--yellow-dark-1);
+    --accent-dark-2: var(--yellow-dark-2);
+    --accent-dark-3: var(--yellow-dark-3);
+    --accent-dark-4: var(--yellow-dark-4);
+    --accent-dark-5: var(--yellow-dark-5);
+    --accent-dark-6: var(--yellow-dark-6);
+    --accent-dark-7: var(--yellow-dark-7);
+    --accent-dark-8: var(--yellow-dark-8);
+    --accent-dark-9: var(--yellow-dark-9);
+    --accent-11: var(--yellow-11);
+    --accent-22: var(--yellow-22);
+    --accent-33: var(--yellow-33);
+    --accent-44: var(--yellow-44);
+    --accent-55: var(--yellow-55);
+    --accent-66: var(--yellow-66);
+    --accent-77: var(--yellow-77);
+    --accent-88: var(--yellow-88);
+    --accent-99: var(--yellow-99);
+    --accent-aa: var(--yellow-aa);
+    --accent-bb: var(--yellow-bb);
+    --accent-cc: var(--yellow-cc);
+    --accent-dd: var(--yellow-dd);
+    --accent-ee: var(--yellow-ee);
+}
+
+.accent-orange {
+    --accent-light-9: var(--orange-light-9);
+    --accent-light-8: var(--orange-light-8);
+    --accent-light-7: var(--orange-light-7);
+    --accent-light-6: var(--orange-light-6);
+    --accent-light-5: var(--orange-light-5);
+    --accent-light-4: var(--orange-light-4);
+    --accent-light-3: var(--orange-light-3);
+    --accent-light-2: var(--orange-light-2);
+    --accent-light-1: var(--orange-light-1);
+    --accent-normal: var(--orange-normal);
+    --accent-dark-1: var(--orange-dark-1);
+    --accent-dark-2: var(--orange-dark-2);
+    --accent-dark-3: var(--orange-dark-3);
+    --accent-dark-4: var(--orange-dark-4);
+    --accent-dark-5: var(--orange-dark-5);
+    --accent-dark-6: var(--orange-dark-6);
+    --accent-dark-7: var(--orange-dark-7);
+    --accent-dark-8: var(--orange-dark-8);
+    --accent-dark-9: var(--orange-dark-9);
+    --accent-11: var(--orange-11);
+    --accent-22: var(--orange-22);
+    --accent-33: var(--orange-33);
+    --accent-44: var(--orange-44);
+    --accent-55: var(--orange-55);
+    --accent-66: var(--orange-66);
+    --accent-77: var(--orange-77);
+    --accent-88: var(--orange-88);
+    --accent-99: var(--orange-99);
+    --accent-aa: var(--orange-aa);
+    --accent-bb: var(--orange-bb);
+    --accent-cc: var(--orange-cc);
+    --accent-dd: var(--orange-dd);
+    --accent-ee: var(--orange-ee);
+}

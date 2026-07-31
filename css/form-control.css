@@ -1,0 +1,86 @@
+input.qform[type="text"],
+input.qform[type="password"],
+input.qform[type="email"],
+input.qform[type="number"],
+input.qform[type="search"],
+input.qform[type="tel"],
+input.qform[type="url"],
+input.qform[type="date"],
+input.qform[type="time"],
+input.qform[type="datetime-local"],
+input.qform[type="month"],
+input.qform[type="week"],
+textarea.qform {
+    min-height: var(--size-xl);
+    padding: 0 var(--size-sm);
+    font-size: var(--subtitle);
+    font-weight: 600;
+    color: var(--text-primary);
+    background-color: var(--btn-primary);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1.6px transparent;
+    outline: solid 1px var(--btn-border-primary);
+    border-radius: var(--size-xs);
+    text-decoration: none;
+    transition: background-color var(--animation-fast), border-color var(--animation-fast), color var(--animation-fast), transform var(--animation-fast);
+}
+
+input[type="number"] {
+    text-align: end;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Hover */
+@media (hover: hover) and (pointer: fine) {
+    input.qform[type="text"]:hover,
+    input.qform[type="password"]:hover,
+    input.qform[type="email"]:hover,
+    input.qform[type="number"]:hover,
+    input.qform[type="search"]:hover,
+    input.qform[type="tel"]:hover,
+    input.qform[type="url"]:hover,
+    input.qform[type="date"]:hover,
+    input.qform[type="time"]:hover,
+    input.qform[type="datetime-local"]:hover,
+    input.qform[type="month"]:hover,
+    input.qform[type="week"]:hover,
+    textarea.qform:hover {
+        background-color: var(--btn-secondary);
+    }
+}
+
+input.qform[type="text"]:focus,
+input.qform[type="password"]:focus,
+input.qform[type="email"]:focus,
+input.qform[type="number"]:focus,
+input.qform[type="search"]:focus,
+input.qform[type="tel"]:focus,
+input.qform[type="url"]:focus,
+input.qform[type="date"]:focus,
+input.qform[type="time"]:focus,
+input.qform[type="datetime-local"]:focus,
+input.qform[type="month"]:focus,
+input.qform[type="week"]:focus,
+textarea.qform:focus,
+input.qform[type="text"]:active,
+input.qform[type="password"]:active,
+input.qform[type="email"]:active,
+input.qform[type="number"]:active,
+input.qform[type="search"]:active,
+input.qform[type="tel"]:active,
+input.qform[type="url"]:active,
+input.qform[type="date"]:active,
+input.qform[type="time"]:active,
+input.qform[type="datetime-local"]:active,
+input.qform[type="month"]:active,
+input.qform[type="week"]:active,
+textarea.qform:active {
+    background-color: var(--btn-input-field-active);
+    border-color: var(--accent-tertiary);
+}
