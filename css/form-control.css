@@ -14,13 +14,13 @@ textarea.qform {
     min-height: var(--size-xl);
     padding: 0 var(--size-sm);
     font-size: var(--subtitle);
-    font-weight: 600;
+    font-weight: 400;
     color: var(--text-primary);
-    background-color: var(--btn-primary);
+    background-color: var(--control-primary);
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: solid 1.6px transparent;
+    border-bottom: solid 1px transparent;
     outline: solid 1px var(--btn-border-primary);
     border-radius: var(--size-xs);
     text-decoration: none;
@@ -51,7 +51,7 @@ input[type="number"]::-webkit-outer-spin-button {
     input.qform[type="month"]:hover,
     input.qform[type="week"]:hover,
     textarea.qform:hover {
-        background-color: var(--btn-secondary);
+        background-color: var(--control-secondary);
     }
 }
 
@@ -81,6 +81,85 @@ input.qform[type="datetime-local"]:active,
 input.qform[type="month"]:active,
 input.qform[type="week"]:active,
 textarea.qform:active {
-    background-color: var(--btn-input-field-active);
+    background-color: var(--control-tertiary);
     border-color: var(--accent-tertiary);
+}
+
+/* Disabled */
+input.qform[type="text"]:disabled,
+input.qform[type="password"]:disabled,
+input.qform[type="email"]:disabled,
+input.qform[type="number"]:disabled,
+input.qform[type="search"]:disabled,
+input.qform[type="tel"]:disabled,
+input.qform[type="url"]:disabled,
+input.qform[type="date"]:disabled,
+input.qform[type="time"]:disabled,
+input.qform[type="datetime-local"]:disabled,
+input.qform[type="month"]:disabled,
+input.qform[type="week"]:disabled,
+textarea.qform:disabled,
+input.qform:disabled:hover,
+textarea.qform:disabled:hover,
+input.qform:disabled:focus,
+textarea.qform:disabled:focus,
+input.qform:disabled:active,
+textarea.qform:disabled:active {
+    color: var(--text-disable);
+    outline-color: var(--btn-border-disable);
+    background-color: var(--control-disable);
+    border-color: transparent;
+}
+
+/* Placeholder */
+input.qform::placeholder,
+textarea.qform::placeholder {
+    color: color-mix(in srgb, var(--text-primary) 30%, transparent);
+    font-weight: 400;
+    font-size: var(--body-size);
+}
+
+input.qform:focus::placeholder,
+textarea.qform:focus::placeholder,
+input.qform:active::placeholder,
+textarea.qform:active::placeholder {
+    color: color-mix(in srgb, var(--text-primary) 60%, transparent);
+}
+
+input.qform:disabled::placeholder,
+textarea.qform:disabled::placeholder,
+input.qform:disabled:hover::placeholder,
+textarea.qform:disabled:hover::placeholder,
+input.qform:disabled:focus::placeholder,
+textarea.qform:disabled:focus::placeholder,
+input.qform:disabled:active::placeholder,
+textarea.qform:disabled:active::placeholder {
+    color: color-mix(in srgb, var(--text-primary) 20%, transparent);
+}
+
+/* Autofill styles */
+input.qform:-webkit-autofill {
+    -webkit-text-fill-color: var(--text-primary);
+    font-weight: 600;
+
+    /* Background fix */
+    transition: background-color 9999s ease-in-out 0s;
+    box-shadow: 0 0 0 1000px var(--control-primary) inset !important;
+
+    /* Optional border fix for focus */
+    border-bottom: solid 1px transparent;
+}
+
+/* Autofill when focused (apply your active state) */
+input.qform:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px var(--control-tertiary) inset !important;
+    border-bottom: solid 1px var(--accent-tertiary);
+}
+
+input.qform::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+}
+
+:root[data-theme="dark"] input.qform::-webkit-calendar-picker-indicator {
+    filter: invert(0.7);
 }

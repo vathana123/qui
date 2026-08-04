@@ -515,12 +515,16 @@
     --btn-secondary: var(--gray-11);
     --btn-tertiary: var(--gray-33);
     --btn-disable: #00000000;
-    --btn-input-field-active: #ffffff;
 
     --btn-border-primary: var(--gray-33);
     --btn-border-secondary: var(--gray-22);
     --btn-border-tertiary: var(--gray-44);
     --btn-border-disable: var(--gray-11);
+
+    --control-primary: #2020200a;
+    --control-secondary: #1010100f;
+    --control-tertiary: #ffffff;
+    --control-disable: #2020200f;
 
     --subtle-primary: #20202000;
     --subtle-secondary: var(--gray-22);
@@ -600,7 +604,16 @@
     --btn-secondary: var(--gray-77);
     --btn-tertiary: var(--gray-55);
     --btn-disable: var(--gray-44);
-    --btn-input-field-active: #101010;
+
+    --btn-border-primary: var(--gray-77);
+    --btn-border-secondary: var(--gray-88);
+    --btn-border-tertiary: var(--gray-66);
+    --btn-border-disable: var(--gray-55);
+
+    --control-primary: #fafafa0a;
+    --control-secondary: #fafafa0f;
+    --control-tertiary: #101010aa;
+    --control-disable: transparent;
 
     --text-primary: #f3f3f3cc;
     --text-secondary: #f3f3f399;
