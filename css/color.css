@@ -610,9 +610,9 @@
     --btn-border-tertiary: var(--gray-66);
     --btn-border-disable: var(--gray-55);
 
-    --control-primary: #fafafa0a;
-    --control-secondary: #fafafa0f;
-    --control-tertiary: #101010aa;
+    --control-primary: #202020ee;
+    --control-secondary: #101010aa;
+    --control-tertiary: #101010dd;
     --control-disable: transparent;
 
     --text-primary: #f3f3f3cc;

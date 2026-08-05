@@ -18,8 +18,25 @@
     <div class="my-2">
         <div class="qcard">
             <div style="width: 500px;">
-                <input type="text" class="qform" placeholder="Text Box" name="name">
-                <input type="text" class="qform" disabled placeholder="Disabled Text Box">
+                <div class="qform-group">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="qform-control" placeholder="Text Box" name="name">
+                </div>
+            </div>
+            <div style="width: 500px;">
+                <div class="qform-group">
+                    <input type="text" class="qform-control" disabled placeholder="Disabled Text Box">
+                </div>
+            </div>
+            <div style="width: 500px;">
+                <div class="qform-group">
+                    <select class="qform-select">
+                        <option selected></option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
