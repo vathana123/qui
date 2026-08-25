@@ -172,10 +172,18 @@ html {
     --btn-padding-inline: var(--size-md);
     --btn-font-size: var(--body);
 
+    --alert-default: var(--gray-normal);
+
     --text-on-accent: var(--light);
     --text-primary: var(--dark);
     --text-secondary: color-mix(in srgb, var(--gray-dark) 70%, transparent);
-    --backgound: var(--light);
+    --strock-default: color-mix(in srgb, var(--gray-darker) 10%, transparent);
+    --backgound-default: #f3f6f9;
+    --surface-default: color-mix(in srgb, var(--light) 80%, transparent);
+    --surface-secondary: color-mix(in srgb, var(--gray-darker) 5%, transparent);
+    --card-radius: var(--size-xs);
+    --alert-radius: var(--size-xs);
+    --shadow-default: color-mix(in srgb, var(--dark) 25%, transparent);
 }
 
 :root[data-theme="dark"] {
@@ -235,91 +243,254 @@ html {
     --accent-secondary: var(--blue-light);
     --accent-tertiary: var(--blue-lighter);
 
-    --backgound: var(--dark);
     --btn-pri: var(--gray-normal);
     --btn-sec: var(--gray-light);
     --btn-ter: var(--gray-lighter);
     --text-on-accent: var(--light);
     --text-primary: var(--light);
     --text-secondary: color-mix(in srgb, var(--gray-light) 70%, transparent);
+    --strock-default: color-mix(in srgb, var(--gray-lighter) 10%, transparent);
+    --backgound-default: #1a1a1a;
+    --surface-default: color-mix(in srgb, var(--light) 5%, transparent);
+    --surface-secondary: color-mix(in srgb, var(--gray-lighter) 5%, transparent);
+    --shadow-default: color-mix(in srgb, var(--dark) 50%, transparent);
 }
 
 .accent-red {
-    --accent-normal: var(--red-normal);
+    --accent-primary: var(--red-normal);
     --accent-secondary: var(--red-secondary);
     --accent-tertiary: var(--red-tertiary);
 }
 
 .accent-pink {
-    --accent-normal: var(--pink-normal);
+    --accent-primary: var(--pink-normal);
     --accent-secondary: var(--pink-secondary);
     --accent-tertiary: var(--pink-tertiary);
 }
 
 .accent-magenta {
-    --accent-normal: var(--magenta-normal);
+    --accent-primary: var(--magenta-normal);
     --accent-secondary: var(--magenta-secondary);
     --accent-tertiary: var(--magenta-tertiary);
 }
 
 .accent-purple {
-    --accent-normal: var(--purple-normal);
+    --accent-primary: var(--purple-normal);
     --accent-secondary: var(--purple-secondary);
     --accent-tertiary: var(--purple-tertiary);
 }
 
 .accent-indigo {
-    --accent-normal: var(--indigo-normal);
+    --accent-primary: var(--indigo-normal);
     --accent-secondary: var(--indigo-secondary);
     --accent-tertiary: var(--indigo-tertiary);
 }
 
 .accent-blue {
-    --accent-normal: var(--blue-normal);
+    --accent-primary: var(--blue-normal);
     --accent-secondary: var(--blue-secondary);
     --accent-tertiary: var(--blue-tertiary);
 }
 
 .accent-cyan {
-    --accent-normal: var(--cyan-normal);
+    --accent-primary: var(--cyan-normal);
     --accent-secondary: var(--cyan-secondary);
     --accent-tertiary: var(--cyan-tertiary);
 }
 
 .accent-teal {
-    --accent-normal: var(--teal-normal);
+    --accent-primary: var(--teal-normal);
     --accent-secondary: var(--teal-secondary);
     --accent-tertiary: var(--teal-tertiary);
 }
 
 .accent-green {
-    --accent-normal: var(--green-normal);
+    --accent-primary: var(--green-normal);
     --accent-secondary: var(--green-secondary);
     --accent-tertiary: var(--green-tertiary);
 }
 
 .accent-lime {
-    --accent-normal: var(--lime-normal);
+    --accent-primary: var(--lime-normal);
     --accent-secondary: var(--lime-secondary);
     --accent-tertiary: var(--lime-tertiary);
 }
 
 .accent-yellow {
-    --accent-normal: var(--yellow-normal);
+    --accent-primary: var(--yellow-normal);
     --accent-secondary: var(--yellow-secondary);
     --accent-tertiary: var(--yellow-tertiary);
 }
 
 .accent-orange {
-    --accent-normal: var(--orange-normal);
+    --accent-primary: var(--orange-normal);
     --accent-secondary: var(--orange-secondary);
     --accent-tertiary: var(--orange-tertiary);
 }
 
 .accent-gray {
-    --accent-normal: var(--gray-normal);
+    --accent-primary: var(--gray-normal);
     --accent-secondary: var(--gray-secondary);
     --accent-tertiary: var(--gray-tertiary);
+}
+
+
+.qalert {
+    --alert-tint: color-mix(in srgb, var(--alert-default) 10%, transparent);
+    padding: var(--size-md) var(--size-lg);
+    border-radius: var(--alert-radius);
+    background-color: transparent;
+    color: var(--alert-default);
+    border: solid 2.5px var(--alert-default);
+}
+
+.qalert.qalert-soft {
+    background-color: var(--alert-tint);
+    border: none;
+}
+
+.qalert.qalert-outlined-soft {
+    background-color: var(--alert-tint);
+    border: solid 2.5px var(--alert-default);
+}
+
+.qalert.qalert-filled,
+.qalert.qalert-filled-3d {
+    background-color: var(--alert-default);
+    color: var(--text-on-accent);
+    border: none;
+}
+
+.qalert.qalert-filled-3d {
+    box-shadow: inset 0px 1px 2px color-mix(in srgb, var(--light) 50%, transparent),
+        inset 0px -1px 2px color-mix(in srgb, var(--dark) 50%, transparent);
+}
+
+.qalert.qalert-red {
+    --alert-default: var(--red-normal);
+}
+
+.qalert.qalert-pink {
+    --alert-default: var(--pink-normal);
+}
+
+.qalert.qalert-magenta {
+    --alert-default: var(--magenta-normal);
+}
+
+.qalert.qalert-purple {
+    --alert-default: var(--purple-normal);
+}
+
+.qalert.qalert-indigo {
+    --alert-default: var(--indigo-normal);
+}
+
+.qalert.qalert-blue {
+    --alert-default: var(--blue-normal);
+}
+
+.qalert.qalert-cyan {
+    --alert-default: var(--cyan-normal);
+}
+
+.qalert.qalert-teal {
+    --alert-default: var(--teal-normal);
+}
+
+.qalert.qalert-green {
+    --alert-default: var(--green-normal);
+}
+
+.qalert.qalert-lime {
+    --alert-default: var(--lime-normal);
+}
+
+.qalert.qalert-yellow {
+    --alert-default: var(--yellow-normal);
+}
+
+.qalert.qalert-orange {
+    --alert-default: var(--orange-normal);
+}
+
+.qalert.qalert-gray {
+    --alert-default: var(--gray-normal);
+}
+
+
+.qalert.qalert-rounded-xxs,
+.qalert-theme-rounded-xxs {
+    --alert-radius: var(--size-xxs);
+}
+
+.qalert.qalert-rounded-xs,
+.qalert-theme-rounded-xs {
+    --alert-radius: var(--size-xs);
+}
+
+.qalert.qalert-rounded-sm,
+.qalert-theme-rounded-sm {
+    --alert-radius: var(--size-sm);
+}
+
+.qalert.qalert-rounded-md,
+.qalert-theme-rounded-md {
+    --alert-radius: var(--size-md);
+}
+
+.qalert.qalert-rounded-lg,
+.qalert-theme-rounded-lg {
+    --alert-radius: var(--size-lg);
+}
+
+.qalert.qalert-rounded-xl,
+.qalert-theme-rounded-xl {
+    --alert-radius: var(--size-xl);
+}
+
+.qalert.qalert-rounded-xxl,
+.qalert-theme-rounded-xxl {
+    --alert-radius: var(--size-xxl);
+}
+
+/* Card */
+.qcard {
+    background-color: var(--surface-default);
+    box-shadow: 0px 2px 4px var(--shadow-default);
+    border-radius: var(--card-radius);
+}
+
+.qcard .qcard-header {
+    padding: var(--size-sm) var(--size-lg);
+    border-bottom: solid 1px var(--strock-default);
+}
+
+.qcard .qcard-body {
+    padding: var(--size-sm) var(--size-lg);
+}
+
+.qcard .qcard-footer {
+    padding: var(--size-sm) var(--size-lg);
+    background-color: var(--surface-secondary);
+}
+
+.qcard .qcard-header:first-child,
+.qcard .qcard-body:first-child,
+.qcard .qcard-footer:first-child {
+    border-radius: var(--card-radius) var(--card-radius) 0 0;
+}
+
+.qcard .qcard-header:last-child,
+.qcard .qcard-body:last-child,
+.qcard .qcard-footer:last-child {
+    border-radius: 0 0 var(--card-radius) var(--card-radius);
+}
+
+.qcard .qcard-header:only-child,
+.qcard .qcard-body:only-child,
+.qcard .qcard-footer:only-child {
+    border-radius: var(--card-radius);
 }
 
 /* Button */
@@ -339,6 +510,14 @@ html {
     text-decoration: none;
     transition: background-color var(--animation-medium), transform var(--animation-medium), color var(--animation-medium), border-color var(--animation-medium);
     border-radius: var(--btn-radius);
+}
+
+.qbtn.qbtn-3d:not(.qbtn.qbtn-soft,
+    .qbtn.qbtn-soft-filled,
+    .qbtn.qbtn-outlined,
+    .qbtn.qbtn-outlined-filled) {
+    box-shadow: inset 0px 1px 2px color-mix(in srgb, var(--light) 50%, transparent),
+        inset 0px -1px 2px color-mix(in srgb, var(--dark) 50%, transparent);
 }
 
 .qbtn.qbtn-sm,
@@ -422,6 +601,7 @@ html {
 
 /* Hover */
 @media (hover: hover) and (pointer: fine) {
+
     .qbtn:hover,
     .qbtn.qbtn-soft-filled:hover,
     .qbtn.qbtn-outlined-filled:hover {
@@ -568,15 +748,6 @@ html {
 }
 
 /* Border */
-.qborder,
-.qborder-t,
-.qborder-b,
-.qborder-l,
-.qborder-r {
-    border-color: color-mix(in srgb, var(--gray) 70%, transparent);
-    border-style: solid;
-}
-
 .qborder,
 .qborder-t,
 .qborder-b,
@@ -1510,15 +1681,12 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
     color: var(--text-primary);
 }
 
 body {
-    font-family: "SamsungOne", Roboto, "Helvetica Neue",
-        Arial, sans-serif;
+    font-family: "SamsungOne", Roboto, "Helvetica Neue", Arial, sans-serif;
     height: 100vh;
     color: var(--text-primary);
-    background-color: var(--backgound);
+    background-color: var(--backgound-default);
 }
