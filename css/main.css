@@ -172,7 +172,20 @@ html {
     --btn-padding-inline: var(--size-md);
     --btn-font-size: var(--body);
 
-    --alert-default: var(--gray-normal);
+    --control-pri: color-mix(in srgb, var(--dark) 2%, transparent);
+    --control-sec: color-mix(in srgb, var(--dark) 5%, transparent);
+    --control-ter: var(--light);
+    --control-dis: color-mix(in srgb, var(--dark) 10%, transparent);
+    --text-control-pri: color-mix(in srgb, var(--dark) 70%, transparent);
+    --text-control-sec: color-mix(in srgb, var(--dark) 65%, transparent);
+    --text-control-ter: color-mix(in srgb, var(--dark) 60%, transparent);
+    --text-control-dis: color-mix(in srgb, var(--dark) 55%, transparent);
+    --strock-control-pri: color-mix(in srgb, var(--dark) 10%, transparent);
+    --strock-control-sec: color-mix(in srgb, var(--dark) 15%, transparent);
+    --strock-control-ter: color-mix(in srgb, var(--dark) 20%, transparent);
+    --strock-control-dis: color-mix(in srgb, var(--dark) 5%, transparent);
+
+    --alert-default: var(--gray-dark);
 
     --text-on-accent: var(--light);
     --text-primary: var(--dark);
@@ -243,9 +256,25 @@ html {
     --accent-secondary: var(--blue-light);
     --accent-tertiary: var(--blue-lighter);
 
+    --alert-default: var(--gray-light);
+
     --btn-pri: var(--gray-normal);
     --btn-sec: var(--gray-light);
     --btn-ter: var(--gray-lighter);
+
+    --control-pri: color-mix(in srgb, var(--light) 2%, transparent);
+    --control-sec: color-mix(in srgb, var(--light) 5%, transparent);
+    --control-ter: var(--dark);
+    --control-dis: color-mix(in srgb, var(--light) 10%, transparent);
+    --text-control-pri: color-mix(in srgb, var(--light) 70%, transparent);
+    --text-control-sec: color-mix(in srgb, var(--light) 75%, transparent);
+    --text-control-ter: color-mix(in srgb, var(--light) 60%, transparent);
+    --text-control-dis: color-mix(in srgb, var(--light) 55%, transparent);
+    --strock-control-pri: color-mix(in srgb, var(--light) 10%, transparent);
+    --strock-control-sec: color-mix(in srgb, var(--light) 15%, transparent);
+    --strock-control-ter: color-mix(in srgb, var(--light) 20%, transparent);
+    --strock-control-dis: color-mix(in srgb, var(--light) 5%, transparent);
+
     --text-on-accent: var(--light);
     --text-primary: var(--light);
     --text-secondary: color-mix(in srgb, var(--gray-light) 70%, transparent);
@@ -334,7 +363,44 @@ html {
     --accent-tertiary: var(--gray-tertiary);
 }
 
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]) {
+    min-height: var(--btn-min-height);
+    min-width: 100%;
+    background-color: var(--control-pri);
+    color: var(--text-control-pri);
+    font-size: var(--btn-font-size);
+    font-weight: 600;
+    padding-block: 0;
+    padding-inline: var(--btn-padding-inline);
+    outline: solid 1px var(--strock-control-pri);
+    border: none;
+    border-bottom: solid 0 transparent;
+    text-decoration: none;
+    transition: background-color var(--animation-medium), outline-color var(--animation-medium), color var(--animation-medium), border-color var(--animation-medium), border-width var(--animation-medium);
+    border-radius: var(--btn-radius);
+}
 
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):hover {
+    outline-color: var(--strock-control-sec);
+    background-color: var(--control-sec);
+    color: var(--text-control-sec);
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):active,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):focus {
+    outline-color: var(--accent-tertiary);
+    background-color: var(--control-ter);
+    color: var(--text-control-ter);
+}
+
+input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type="file"]):active,
+input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type="file"]):focus {
+    outline-color: var(--strock-control-ter);
+    border-color: var(--accent-primary);
+    border-width: 1.5px;
+}
+
+/* Alert */
 .qalert {
     --alert-tint: color-mix(in srgb, var(--alert-default) 10%, transparent);
     padding: var(--size-md) var(--size-lg);
