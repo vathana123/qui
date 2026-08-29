@@ -174,18 +174,22 @@ html {
 
     --control-pri: color-mix(in srgb, var(--dark) 2%, transparent);
     --control-sec: color-mix(in srgb, var(--dark) 5%, transparent);
-    --control-ter: var(--light);
+    --control-ter: #ffffff;
     --control-dis: color-mix(in srgb, var(--dark) 10%, transparent);
-    --text-control-pri: color-mix(in srgb, var(--dark) 70%, transparent);
-    --text-control-sec: color-mix(in srgb, var(--dark) 65%, transparent);
-    --text-control-ter: color-mix(in srgb, var(--dark) 60%, transparent);
-    --text-control-dis: color-mix(in srgb, var(--dark) 55%, transparent);
+    --text-control-pri: color-mix(in srgb, var(--dark) 80%, transparent);
+    --text-control-sec: color-mix(in srgb, var(--dark) 85%, transparent);
+    --text-control-ter: color-mix(in srgb, var(--dark) 70%, transparent);
+    --text-control-dis: color-mix(in srgb, var(--dark) 65%, transparent);
+    --placeholder-control-pri: color-mix(in srgb, var(--dark) 40%, transparent);
+    --placeholder-control-sec: color-mix(in srgb, var(--dark) 45%, transparent);
+    --placeholder-control-ter: color-mix(in srgb, var(--dark) 30%, transparent);
+    --placeholder-control-dis: color-mix(in srgb, var(--dark) 25%, transparent);
     --strock-control-pri: color-mix(in srgb, var(--dark) 10%, transparent);
     --strock-control-sec: color-mix(in srgb, var(--dark) 15%, transparent);
     --strock-control-ter: color-mix(in srgb, var(--dark) 20%, transparent);
     --strock-control-dis: color-mix(in srgb, var(--dark) 5%, transparent);
 
-    --alert-default: var(--gray-dark);
+    --alert-normal: var(--gray-normal);
 
     --text-on-accent: var(--light);
     --text-primary: var(--dark);
@@ -256,7 +260,7 @@ html {
     --accent-secondary: var(--blue-light);
     --accent-tertiary: var(--blue-lighter);
 
-    --alert-default: var(--gray-light);
+    --alert-normal: var(--gray-light);
 
     --btn-pri: var(--gray-normal);
     --btn-sec: var(--gray-light);
@@ -266,10 +270,14 @@ html {
     --control-sec: color-mix(in srgb, var(--light) 5%, transparent);
     --control-ter: var(--dark);
     --control-dis: color-mix(in srgb, var(--light) 10%, transparent);
-    --text-control-pri: color-mix(in srgb, var(--light) 70%, transparent);
-    --text-control-sec: color-mix(in srgb, var(--light) 75%, transparent);
-    --text-control-ter: color-mix(in srgb, var(--light) 60%, transparent);
-    --text-control-dis: color-mix(in srgb, var(--light) 55%, transparent);
+    --text-control-pri: color-mix(in srgb, var(--light) 80%, transparent);
+    --text-control-sec: color-mix(in srgb, var(--light) 85%, transparent);
+    --text-control-ter: color-mix(in srgb, var(--light) 70%, transparent);
+    --text-control-dis: color-mix(in srgb, var(--light) 65%, transparent);
+    --placeholder-control-pri: color-mix(in srgb, var(--light) 40%, transparent);
+    --placeholder-control-sec: color-mix(in srgb, var(--light) 45%, transparent);
+    --placeholder-control-ter: color-mix(in srgb, var(--light) 30%, transparent);
+    --placeholder-control-dis: color-mix(in srgb, var(--light) 25%, transparent);
     --strock-control-pri: color-mix(in srgb, var(--light) 10%, transparent);
     --strock-control-sec: color-mix(in srgb, var(--light) 15%, transparent);
     --strock-control-ter: color-mix(in srgb, var(--light) 20%, transparent);
@@ -363,12 +371,144 @@ html {
     --accent-tertiary: var(--gray-tertiary);
 }
 
+.qbg-red {
+    background-color: var(--red-normal) !important;
+}
+
+.qbg-pink {
+    background-color: var(--pink-normal) !important;
+}
+
+.qbg-magenta {
+    background-color: var(--magenta-normal) !important;
+}
+
+.qbg-purple {
+    background-color: var(--purple-normal) !important;
+}
+
+.qbg-indigo {
+    background-color: var(--indigo-normal) !important;
+}
+
+.qbg-blue {
+    background-color: var(--blue-normal) !important;
+}
+
+.qbg-cyan {
+    background-color: var(--cyan-normal) !important;
+}
+
+.qbg-teal {
+    background-color: var(--teal-normal) !important;
+}
+
+.qbg-green {
+    background-color: var(--green-normal) !important;
+}
+
+.qbg-lime {
+    background-color: var(--lime-normal) !important;
+}
+
+.qbg-lime {
+    background-color: var(--lime-normal) !important;
+}
+
+.qbg-yellow {
+    background-color: var(--yellow-normal) !important;
+}
+
+.qbg-orange {
+    background-color: var(--orange-normal) !important;
+}
+
+.qbg-gray {
+    background-color: var(--gray-normal) !important;
+}
+
+.qbg-dark {
+    background-color: var(--dark) !important;
+}
+
+.qbg-light {
+    background-color: var(--light) !important;
+}
+
+.qtext-red {
+    color: var(--red-normal) !important;
+}
+
+.qtext-pink {
+    color: var(--pink-normal) !important;
+}
+
+.qtext-magenta {
+    color: var(--magenta-normal) !important;
+}
+
+.qtext-purple {
+    color: var(--purple-normal) !important;
+}
+
+.qtext-indigo {
+    color: var(--indigo-normal) !important;
+}
+
+.qtext-blue {
+    color: var(--blue-normal) !important;
+}
+
+.qtext-cyan {
+    color: var(--cyan-normal) !important;
+}
+
+.qtext-teal {
+    color: var(--teal-normal) !important;
+}
+
+.qtext-green {
+    color: var(--green-normal) !important;
+}
+
+.qtext-lime {
+    color: var(--lime-normal) !important;
+}
+
+.qtext-lime {
+    color: var(--lime-normal) !important;
+}
+
+.qtext-yellow {
+    color: var(--yellow-normal) !important;
+}
+
+.qtext-orange {
+    color: var(--orange-normal) !important;
+}
+
+.qtext-gray {
+    color: var(--gray-normal) !important;
+}
+
+.qtext-on-bg {
+    color: var(--text-primary) !important;
+}
+
+.qtext-on-accent {
+    color: var(--text-on-accent) !important;
+}
+
+.qtext-secondary {
+    color: var(--text-secondary) !important;
+}
+
 input.qform:not([type="checkbox"], [type="radio"], [type="file"]) {
     min-height: var(--btn-min-height);
-    min-width: 100%;
+    width: 100%;
     background-color: var(--control-pri);
     color: var(--text-control-pri);
-    font-size: var(--btn-font-size);
+    font-size: var(--small);
     font-weight: 600;
     padding-block: 0;
     padding-inline: var(--btn-padding-inline);
@@ -400,14 +540,150 @@ input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type=
     border-width: 1.5px;
 }
 
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:hover,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:focus,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:active,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled {
+    cursor: not-allowed;
+
+    background-color: var(--control-dis);
+    color: var(--text-control-dis);
+
+    outline-color: var(--strock-control-dis);
+    border: none;
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:focus::placeholder,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:active::placeholder,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled:hover::placeholder,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):disabled::placeholder {
+    color: var(--placeholder-control-dis);
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"])::placeholder {
+    color: var(--placeholder-control-pri);
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):hover::placeholder {
+    color: var(--placeholder-control-sec);
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):active::placeholder,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):focus::placeholder {
+    color: var(--placeholder-control-ter);
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px #efefef inset;
+    caret-color: var(--text-control-pri);
+
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:hover {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px #e9e9e9 inset;
+    caret-color: var(--text-control-pri);
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:active,
+input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px white inset;
+    caret-color: var(--text-control-pri);
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+[data-theme="dark"] input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px #2a2a2a inset;
+    caret-color: var(--text-control-pri);
+
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+[data-theme="dark"] input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:hover {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px #303030 inset;
+    caret-color: var(--text-control-pri);
+
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+[data-theme="dark"] input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:active,
+[data-theme="dark"] input.qform:not([type="checkbox"], [type="radio"], [type="file"]):-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--text-control-pri);
+    box-shadow: 0 0 0 1000px black inset;
+    caret-color: var(--text-control-pri);
+
+    transition: background-color 9999s ease-in-out 0s;
+}
+
+select.qselect {
+    height: var(--btn-min-height);
+    min-width: 100%;
+    background-color: var(--control-pri);
+    color: var(--text-control-pri);
+    font-size: var(--small);
+    font-weight: 600;
+    padding-block: 0;
+    padding-inline: var(--btn-padding-inline);
+    outline: solid 1px var(--strock-control-pri);
+    border: none;
+    text-decoration: none;
+    transition: background-color var(--animation-medium), outline-color var(--animation-medium), color var(--animation-medium), border-color var(--animation-medium), border-width var(--animation-medium);
+    border-radius: var(--btn-radius);
+    cursor: pointer;
+}
+
+select.qselect:hover {
+    outline-color: var(--strock-control-sec);
+    background-color: var(--control-sec);
+    color: var(--text-control-sec);
+}
+
+select.qselect:active,
+select.qselect:focus {
+    outline-color: var(--strock-control-ter);
+    background-color: var(--control-ter);
+    color: var(--text-control-ter);
+}
+
+select.qselect option {
+    background-color: var(--backgound-default);
+    color: var(--text-control-pri);
+
+    font-size: var(--small);
+    font-weight: 500;
+}
+
+select.qselect option.qoption-placeholder {
+    color: var(--placeholder-control-pri);
+}
+
+select.qselect:disabled:hover,
+select.qselect:disabled:focus,
+select.qselect:disabled:active,
+select.qselect:disabled {
+    cursor: not-allowed;
+
+    background-color: var(--control-dis);
+    color: var(--text-control-dis);
+
+    outline-color: var(--strock-control-dis);
+    border: none;
+}
+
 /* Alert */
 .qalert {
-    --alert-tint: color-mix(in srgb, var(--alert-default) 10%, transparent);
+    --alert-tint: color-mix(in srgb, var(--alert-normal) 10%, transparent);
     padding: var(--size-md) var(--size-lg);
     border-radius: var(--alert-radius);
     background-color: transparent;
-    color: var(--alert-default);
-    border: solid 2.5px var(--alert-default);
+    color: var(--alert-normal);
+    border: solid 2.5px var(--alert-normal);
 }
 
 .qalert.qalert-soft {
@@ -417,71 +693,71 @@ input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type=
 
 .qalert.qalert-outlined-soft {
     background-color: var(--alert-tint);
-    border: solid 2.5px var(--alert-default);
+    border: solid 2.5px var(--alert-normal);
 }
 
 .qalert.qalert-filled,
 .qalert.qalert-filled-3d {
-    background-color: var(--alert-default);
+    background-color: var(--alert-normal);
     color: var(--text-on-accent);
     border: none;
 }
 
 .qalert.qalert-filled-3d {
-    box-shadow: inset 0px 1px 2px color-mix(in srgb, var(--light) 50%, transparent),
-        inset 0px -1px 2px color-mix(in srgb, var(--dark) 50%, transparent);
+    box-shadow: inset 0px 2px 4px color-mix(in srgb, var(--light) 50%, transparent),
+        inset 0px -2px 4px color-mix(in srgb, var(--dark) 50%, transparent);
 }
 
 .qalert.qalert-red {
-    --alert-default: var(--red-normal);
+    --alert-normal: var(--red-normal);
 }
 
 .qalert.qalert-pink {
-    --alert-default: var(--pink-normal);
+    --alert-normal: var(--pink-normal);
 }
 
 .qalert.qalert-magenta {
-    --alert-default: var(--magenta-normal);
+    --alert-normal: var(--magenta-normal);
 }
 
 .qalert.qalert-purple {
-    --alert-default: var(--purple-normal);
+    --alert-normal: var(--purple-normal);
 }
 
 .qalert.qalert-indigo {
-    --alert-default: var(--indigo-normal);
+    --alert-normal: var(--indigo-normal);
 }
 
 .qalert.qalert-blue {
-    --alert-default: var(--blue-normal);
+    --alert-normal: var(--blue-normal);
 }
 
 .qalert.qalert-cyan {
-    --alert-default: var(--cyan-normal);
+    --alert-normal: var(--cyan-normal);
 }
 
 .qalert.qalert-teal {
-    --alert-default: var(--teal-normal);
+    --alert-normal: var(--teal-normal);
 }
 
 .qalert.qalert-green {
-    --alert-default: var(--green-normal);
+    --alert-normal: var(--green-normal);
 }
 
 .qalert.qalert-lime {
-    --alert-default: var(--lime-normal);
+    --alert-normal: var(--lime-normal);
 }
 
 .qalert.qalert-yellow {
-    --alert-default: var(--yellow-normal);
+    --alert-normal: var(--yellow-normal);
 }
 
 .qalert.qalert-orange {
-    --alert-default: var(--orange-normal);
+    --alert-normal: var(--orange-normal);
 }
 
 .qalert.qalert-gray {
-    --alert-default: var(--gray-normal);
+    --alert-normal: var(--gray-normal);
 }
 
 
@@ -527,17 +803,29 @@ input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type=
     border-radius: var(--card-radius);
 }
 
-.qcard .qcard-header {
+.qcard.qcard-lg .qcard-header,
+.qcard.qcard-lg .qcard-body,
+.qcard.qcard-lg .qcard-footer {
+    padding: var(--size-md) var(--size-xl);
+}
+
+.qcard .qcard-header,
+.qcard .qcard-body,
+.qcard .qcard-footer {
     padding: var(--size-sm) var(--size-lg);
+}
+
+.qcard.qcard-sm .qcard-header,
+.qcard.qcard-sm .qcard-body,
+.qcard.qcard-sm .qcard-footer {
+    padding: var(--size-xs) var(--size-md);
+}
+
+.qcard .qcard-header {
     border-bottom: solid 1px var(--strock-default);
 }
 
-.qcard .qcard-body {
-    padding: var(--size-sm) var(--size-lg);
-}
-
 .qcard .qcard-footer {
-    padding: var(--size-sm) var(--size-lg);
     background-color: var(--surface-secondary);
 }
 
@@ -557,6 +845,180 @@ input.qform.qform-active-indicator:not([type="checkbox"], [type="radio"], [type=
 .qcard .qcard-body:only-child,
 .qcard .qcard-footer:only-child {
     border-radius: var(--card-radius);
+}
+
+.qcard.qcard-header.qcard-red,
+.qcard.qcard-header.qcard-pink,
+.qcard.qcard-header.qcard-magenta,
+.qcard.qcard-header.qcard-purple,
+.qcard.qcard-header.qcard-indigo,
+.qcard.qcard-header.qcard-blue,
+.qcard.qcard-header.qcard-cyan,
+.qcard.qcard-header.qcard-teal,
+.qcard.qcard-header.qcard-green,
+.qcard.qcard-header.qcard-lime,
+.qcard.qcard-header.qcard-lime,
+.qcard.qcard-header.qcard-yellow,
+.qcard.qcard-header.qcard-orange,
+.qcard.qcard-header.qcard-gray,
+.qcard.qcard-body.qcard-red,
+.qcard.qcard-body.qcard-pink,
+.qcard.qcard-body.qcard-magenta,
+.qcard.qcard-body.qcard-purple,
+.qcard.qcard-body.qcard-indigo,
+.qcard.qcard-body.qcard-blue,
+.qcard.qcard-body.qcard-cyan,
+.qcard.qcard-body.qcard-teal,
+.qcard.qcard-body.qcard-green,
+.qcard.qcard-body.qcard-lime,
+.qcard.qcard-body.qcard-lime,
+.qcard.qcard-body.qcard-yellow,
+.qcard.qcard-body.qcard-orange,
+.qcard.qcard-body.qcard-gray,
+.qcard.qcard-footer.qcard-red,
+.qcard.qcard-footer.qcard-pink,
+.qcard.qcard-footer.qcard-magenta,
+.qcard.qcard-footer.qcard-purple,
+.qcard.qcard-footer.qcard-indigo,
+.qcard.qcard-footer.qcard-blue,
+.qcard.qcard-footer.qcard-cyan,
+.qcard.qcard-footer.qcard-teal,
+.qcard.qcard-footer.qcard-green,
+.qcard.qcard-footer.qcard-lime,
+.qcard.qcard-footer.qcard-lime,
+.qcard.qcard-footer.qcard-yellow,
+.qcard.qcard-footer.qcard-orange,
+.qcard.qcard-footer.qcard-gray,
+.qcard.qcard-red,
+.qcard.qcard-pink,
+.qcard.qcard-magenta,
+.qcard.qcard-purple,
+.qcard.qcard-indigo,
+.qcard.qcard-blue,
+.qcard.qcard-cyan,
+.qcard.qcard-teal,
+.qcard.qcard-green,
+.qcard.qcard-lime,
+.qcard.qcard-lime,
+.qcard.qcard-yellow,
+.qcard.qcard-orange,
+.qcard.qcard-gray {
+    color: var(--text-on-accent);
+}
+
+.qcard.qcard-red,
+.qcard.qcard-header.qcard-red,
+.qcard.qcard-body.qcard-red {
+    background-color: var(--red-normal);
+}
+.qcard.qcard-pink,
+.qcard.qcard-header.qcard-pink,
+.qcard.qcard-body.qcard-pink {
+    background-color: var(--pink-normal);
+}
+.qcard.qcard-magenta,
+.qcard.qcard-header.qcard-magenta,
+.qcard.qcard-body.qcard-magenta {
+    background-color: var(--magenta-normal);
+}
+.qcard.qcard-purple,
+.qcard.qcard-header.qcard-purple,
+.qcard.qcard-body.qcard-purple {
+    background-color: var(--purple-normal);
+}
+.qcard.qcard-indigo,
+.qcard.qcard-header.qcard-indigo,
+.qcard.qcard-body.qcard-indigo {
+    background-color: var(--indigo-normal);
+}
+.qcard.qcard-blue,
+.qcard.qcard-header.qcard-blue,
+.qcard.qcard-body.qcard-blue {
+    background-color: var(--blue-normal);
+}
+.qcard.qcard-cyan,
+.qcard.qcard-header.qcard-cyan,
+.qcard.qcard-body.qcard-cyan {
+    background-color: var(--cyan-normal);
+}
+.qcard.qcard-teal,
+.qcard.qcard-header.qcard-teal,
+.qcard.qcard-body.qcard-teal {
+    background-color: var(--teal-normal);
+}
+.qcard.qcard-green,
+.qcard.qcard-header.qcard-green,
+.qcard.qcard-body.qcard-green {
+    background-color: var(--green-normal);
+}
+.qcard.qcard-lime,
+.qcard.qcard-header.qcard-lime,
+.qcard.qcard-body.qcard-lime {
+    background-color: var(--lime-normal);
+}
+.qcard.qcard-lime,
+.qcard.qcard-header.qcard-lime,
+.qcard.qcard-body.qcard-lime {
+    background-color: var(--lime-normal);
+}
+.qcard.qcard-yellow,
+.qcard.qcard-header.qcard-yellow,
+.qcard.qcard-body.qcard-yellow {
+    background-color: var(--yellow-normal);
+}
+.qcard.qcard-orange,
+.qcard.qcard-header.qcard-orange,
+.qcard.qcard-body.qcard-orange {
+    background-color: var(--orange-normal);
+}
+.qcard.qcard-gray,
+.qcard.qcard-header.qcard-gray,
+.qcard.qcard-body.qcard-gray {
+    background-color: var(--gray-normal);
+}
+
+
+.qcard.qcard-footer.qcard-red {
+    background-color: color-mix(in srgb, var(--red-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-pink {
+    background-color: color-mix(in srgb, var(--pink-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-magenta {
+    background-color: color-mix(in srgb, var(--magenta-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-purple {
+    background-color: color-mix(in srgb, var(--purple-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-indigo {
+    background-color: color-mix(in srgb, var(--indigo-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-blue {
+    background-color: color-mix(in srgb, var(--blue-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-cyan {
+    background-color: color-mix(in srgb, var(--cyan-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-teal {
+    background-color: color-mix(in srgb, var(--teal-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-green {
+    background-color: color-mix(in srgb, var(--green-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-lime {
+    background-color: color-mix(in srgb, var(--lime-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-lime {
+    background-color: color-mix(in srgb, var(--lime-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-yellow {
+    background-color: color-mix(in srgb, var(--yellow-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-orange {
+    background-color: color-mix(in srgb, var(--orange-normal) 5%, transparent);
+}
+.qcard.qcard-footer.qcard-gray {
+    background-color: color-mix(in srgb, var(--gray-normal) 5%, transparent);
 }
 
 /* Button */
